@@ -1,0 +1,3383 @@
+{
+     "packs": {
+          "pmd2": {
+               "title": "Pokemon Mystery Dungeon 2",
+               "name": "pmd2",
+               "description": "All the PMD2 Charts by StaticR",
+               "source_thread": 1178354572746559540,
+               "target_thread": 1178354618179276862,
+               "curator_id": 898684533719842836,
+               "charts": {
+                    "4114": {
+                         "chart_id": 4114,
+                         "title": "Opening (Time/Darkness)",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/4114.zip"
+                    },
+                    "4115": {
+                         "chart_id": 4115,
+                         "title": "Pok\u00e9mon Exploration Team Theme",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/4115.zip"
+                    },
+                    "4116": {
+                         "chart_id": 4116,
+                         "title": "Top Menu Theme",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/4116.zip"
+                    },
+                    "4117": {
+                         "chart_id": 4117,
+                         "title": "Welcome to the World of Pok\u00e9mon",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 1.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/4117.zip"
+                    },
+                    "4118": {
+                         "chart_id": 4118,
+                         "title": "On the Beach at Dusk",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/4118.zip"
+                    },
+                    "4119": {
+                         "chart_id": 4119,
+                         "title": "Beach Cave",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/4119.zip"
+                    },
+                    "4120": {
+                         "chart_id": 4120,
+                         "title": "Title Theme",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 1.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/4120.zip"
+                    },
+                    "4121": {
+                         "chart_id": 4121,
+                         "title": "Wigglytuff's Guild",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/4121.zip"
+                    },
+                    "4122": {
+                         "chart_id": 4122,
+                         "title": "Guildmaster Wigglytuff",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/4122.zip"
+                    },
+                    "4123": {
+                         "chart_id": 4123,
+                         "title": "Goodnight",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 1.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/4123.zip"
+                    },
+                    "4124": {
+                         "chart_id": 4124,
+                         "title": "Drenched Bluff",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/4124.zip"
+                    },
+                    "4127": {
+                         "chart_id": 4127,
+                         "title": "Job Clear",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/4127.zip"
+                    },
+                    "4128": {
+                         "chart_id": 4128,
+                         "title": "Treasure Town",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/4128.zip"
+                    },
+                    "4129": {
+                         "chart_id": 4129,
+                         "title": "Heartwarming",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 1.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/4129.zip"
+                    },
+                    "4130": {
+                         "chart_id": 4130,
+                         "title": "Growing Anxiety",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/4130.zip"
+                    },
+                    "4131": {
+                         "chart_id": 4131,
+                         "title": "Oh No!",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 5.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/4131.zip"
+                    },
+                    "4132": {
+                         "chart_id": 4132,
+                         "title": "Mt. Bristle",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/4132.zip"
+                    },
+                    "4133": {
+                         "chart_id": 4133,
+                         "title": "Time Gear Remix",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 4.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/4133.zip"
+                    },
+                    "4134": {
+                         "chart_id": 4134,
+                         "title": "The Gatekeepers",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/4134.zip"
+                    },
+                    "4135": {
+                         "chart_id": 4135,
+                         "title": "Waterfall Cave",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/4135.zip"
+                    },
+                    "4136": {
+                         "chart_id": 4136,
+                         "title": "Kecleon's Shop",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/4136.zip"
+                    },
+                    "4146": {
+                         "chart_id": 4146,
+                         "title": "Outlaw!",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 6.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/4146.zip"
+                    },
+                    "4147": {
+                         "chart_id": 4147,
+                         "title": "Spinda's Caf\u00e9",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/4147.zip"
+                    },
+                    "4148": {
+                         "chart_id": 4148,
+                         "title": "Ludicolo Dance",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 1.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/4148.zip"
+                    },
+                    "4149": {
+                         "chart_id": 4149,
+                         "title": "Apple Woods",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/4149.zip"
+                    },
+                    "4150": {
+                         "chart_id": 4150,
+                         "title": "Team Skull",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/4150.zip"
+                    },
+                    "4151": {
+                         "chart_id": 4151,
+                         "title": "Craggy Coast",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/4151.zip"
+                    },
+                    "4152": {
+                         "chart_id": 4152,
+                         "title": "Mt. Horn",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/4152.zip"
+                    },
+                    "4153": {
+                         "chart_id": 4153,
+                         "title": "Foggy Forest",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/4153.zip"
+                    },
+                    "4154": {
+                         "chart_id": 4154,
+                         "title": "Steam Cave",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/4154.zip"
+                    },
+                    "4155": {
+                         "chart_id": 4155,
+                         "title": "Upper Steam Cave",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/4155.zip"
+                    },
+                    "4168": {
+                         "chart_id": 4168,
+                         "title": "Amp Plains",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/4168.zip"
+                    },
+                    "4169": {
+                         "chart_id": 4169,
+                         "title": "Far Amp Plains",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 7.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/4169.zip"
+                    },
+                    "4170": {
+                         "chart_id": 4170,
+                         "title": "Rising Fear",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/4170.zip"
+                    },
+                    "4171": {
+                         "chart_id": 4171,
+                         "title": "Monster House!",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 5.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/4171.zip"
+                    },
+                    "4172": {
+                         "chart_id": 4172,
+                         "title": "I Saw Something Again...",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/4172.zip"
+                    },
+                    "4173": {
+                         "chart_id": 4173,
+                         "title": "Northern Desert",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/4173.zip"
+                    },
+                    "4174": {
+                         "chart_id": 4174,
+                         "title": "Quicksand Cave",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 4.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/4174.zip"
+                    },
+                    "4175": {
+                         "chart_id": 4175,
+                         "title": "Quicksand Pit",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/4175.zip"
+                    },
+                    "4176": {
+                         "chart_id": 4176,
+                         "title": "Crystal Cave",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 4.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/4176.zip"
+                    },
+                    "4177": {
+                         "chart_id": 4177,
+                         "title": "Crystal Crossing",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/4177.zip"
+                    },
+                    "4189": {
+                         "chart_id": 4189,
+                         "title": "Boss Battle",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 7.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/4189.zip"
+                    },
+                    "4190": {
+                         "chart_id": 4190,
+                         "title": "At the End of the Day",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 1.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/4190.zip"
+                    },
+                    "4191": {
+                         "chart_id": 4191,
+                         "title": "In the Future",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/4191.zip"
+                    },
+                    "4192": {
+                         "chart_id": 4192,
+                         "title": "Planet's Paralysis",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/4192.zip"
+                    },
+                    "4193": {
+                         "chart_id": 4193,
+                         "title": "Chasm Cave",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/4193.zip"
+                    },
+                    "4194": {
+                         "chart_id": 4194,
+                         "title": "Dark Hill",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/4194.zip"
+                    },
+                    "4195": {
+                         "chart_id": 4195,
+                         "title": "Sealed Ruin",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 4.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/4195.zip"
+                    },
+                    "4196": {
+                         "chart_id": 4196,
+                         "title": "Sealed Ruin Pit",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 1.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/4196.zip"
+                    },
+                    "4197": {
+                         "chart_id": 4197,
+                         "title": "Dusk Forest",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 4.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/4197.zip"
+                    },
+                    "4198": {
+                         "chart_id": 4198,
+                         "title": "Deep Dusk Forest",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/4198.zip"
+                    },
+                    "4203": {
+                         "chart_id": 4203,
+                         "title": "Sealed Ruin",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 4.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/4203.zip"
+                    },
+                    "4206": {
+                         "chart_id": 4206,
+                         "title": "The Power of Darkness",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 1.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/4206.zip"
+                    },
+                    "4207": {
+                         "chart_id": 4207,
+                         "title": "Treeshroud Forest",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/4207.zip"
+                    },
+                    "4208": {
+                         "chart_id": 4208,
+                         "title": "Brine Cave",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 4.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/4208.zip"
+                    },
+                    "4209": {
+                         "chart_id": 4209,
+                         "title": "Lower Brine Cave",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/4209.zip"
+                    },
+                    "4210": {
+                         "chart_id": 4210,
+                         "title": "Through the Sea of Time",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/4210.zip"
+                    },
+                    "4211": {
+                         "chart_id": 4211,
+                         "title": "Hidden Land",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/4211.zip"
+                    },
+                    "4212": {
+                         "chart_id": 4212,
+                         "title": "Hidden Highland",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 1.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/4212.zip"
+                    },
+                    "4213": {
+                         "chart_id": 4213,
+                         "title": "Battle against Dusknoir",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/4213.zip"
+                    },
+                    "4214": {
+                         "chart_id": 4214,
+                         "title": "Time Gear",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 4.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/4214.zip"
+                    },
+                    "4215": {
+                         "chart_id": 4215,
+                         "title": "In the Hands of Fate",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 1.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/4215.zip"
+                    },
+                    "4216": {
+                         "chart_id": 4216,
+                         "title": "Temporal Tower",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 4.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/4216.zip"
+                    },
+                    "4217": {
+                         "chart_id": 4217,
+                         "title": "Temporal Spire",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/4217.zip"
+                    },
+                    "4218": {
+                         "chart_id": 4218,
+                         "title": "Temporal Pinnacle & Down a Dark Path",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 0.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/4218.zip"
+                    },
+                    "4219": {
+                         "chart_id": 4219,
+                         "title": "Dialga's Fight to the Finish!",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/4219.zip"
+                    },
+                    "4220": {
+                         "chart_id": 4220,
+                         "title": "Time Restored",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/4220.zip"
+                    },
+                    "4221": {
+                         "chart_id": 4221,
+                         "title": "Don't ever forget...",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/4221.zip"
+                    },
+                    "4222": {
+                         "chart_id": 4222,
+                         "title": "Have to Get Home",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/4222.zip"
+                    },
+                    "4223": {
+                         "chart_id": 4223,
+                         "title": "Farther Away...",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/4223.zip"
+                    },
+                    "4224": {
+                         "chart_id": 4224,
+                         "title": "A Wish for Peace",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/4224.zip"
+                    },
+                    "4225": {
+                         "chart_id": 4225,
+                         "title": "Memories Returned",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/4225.zip"
+                    },
+                    "4226": {
+                         "chart_id": 4226,
+                         "title": "Ending Theme",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/4226.zip"
+                    },
+                    "4227": {
+                         "chart_id": 4227,
+                         "title": "Epilogue Theme",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 1.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/4227.zip"
+                    },
+                    "4721": {
+                         "chart_id": 4721,
+                         "title": "Mystifying Forest",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 4.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/4721.zip"
+                    },
+                    "4722": {
+                         "chart_id": 4722,
+                         "title": "Do Your Best, as Always!",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/4722.zip"
+                    },
+                    "4723": {
+                         "chart_id": 4723,
+                         "title": "Shaymin Village",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/4723.zip"
+                    },
+                    "4724": {
+                         "chart_id": 4724,
+                         "title": "Sky Peak Forest",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 4.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/4724.zip"
+                    },
+                    "4726": {
+                         "chart_id": 4726,
+                         "title": "Sky Peak Prairie",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 4.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/4726.zip"
+                    },
+                    "4727": {
+                         "chart_id": 4727,
+                         "title": "Sky Peak Coast",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/4727.zip"
+                    },
+                    "4728": {
+                         "chart_id": 4728,
+                         "title": "Sky Peak Snowfield",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/4728.zip"
+                    },
+                    "4729": {
+                         "chart_id": 4729,
+                         "title": "Sky Peak Final Pass",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/4729.zip"
+                    },
+                    "4730": {
+                         "chart_id": 4730,
+                         "title": "Blizzard Island Rescue Team Medley",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 5.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/4730.zip"
+                    },
+                    "4731": {
+                         "chart_id": 4731,
+                         "title": "Surrounded Sea",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 4.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/4731.zip"
+                    },
+                    "4732": {
+                         "chart_id": 4732,
+                         "title": "Miracle Sea",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/4732.zip"
+                    },
+                    "4733": {
+                         "chart_id": 4733,
+                         "title": "Aegis Cave",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/4733.zip"
+                    },
+                    "4734": {
+                         "chart_id": 4734,
+                         "title": "Concealed Ruins",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/4734.zip"
+                    },
+                    "4735": {
+                         "chart_id": 4735,
+                         "title": "Mt. Travail",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/4735.zip"
+                    },
+                    "4736": {
+                         "chart_id": 4736,
+                         "title": "In the Nightmare",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/4736.zip"
+                    },
+                    "4737": {
+                         "chart_id": 4737,
+                         "title": "Palkia's Onslaught!",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 5.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/4737.zip"
+                    },
+                    "4741": {
+                         "chart_id": 4741,
+                         "title": "Dark Crater",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 1.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/4741.zip"
+                    },
+                    "4742": {
+                         "chart_id": 4742,
+                         "title": "Deep Dark Crater",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 1.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/4742.zip"
+                    },
+                    "4743": {
+                         "chart_id": 4743,
+                         "title": "Marowak Dojo (Time/Darkness)",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 4.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/4743.zip"
+                    },
+                    "4744": {
+                         "chart_id": 4744,
+                         "title": "Marowak Dojo (Sky)",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/4744.zip"
+                    },
+                    "4745": {
+                         "chart_id": 4745,
+                         "title": "Cave and Side Path",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/4745.zip"
+                    },
+                    "4746": {
+                         "chart_id": 4746,
+                         "title": "Random Dungeon Theme 1",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 6.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/4746.zip"
+                    },
+                    "4747": {
+                         "chart_id": 4747,
+                         "title": "Random Dungeon Theme 3",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/4747.zip"
+                    },
+                    "4748": {
+                         "chart_id": 4748,
+                         "title": "In the Depths of the Pit (End of Dungeon)",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 1.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/4748.zip"
+                    },
+                    "4749": {
+                         "chart_id": 4749,
+                         "title": "Defy the Legends",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 6.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/4749.zip"
+                    },
+                    "4750": {
+                         "chart_id": 4750,
+                         "title": "Beyond the Dream",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/4750.zip"
+                    },
+                    "4751": {
+                         "chart_id": 4751,
+                         "title": "Sympathy",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/4751.zip"
+                    },
+                    "4752": {
+                         "chart_id": 4752,
+                         "title": "Air of Unease",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/4752.zip"
+                    },
+                    "4753": {
+                         "chart_id": 4753,
+                         "title": "Star Cave",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/4753.zip"
+                    },
+                    "4754": {
+                         "chart_id": 4754,
+                         "title": "One for All, All for One!",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/4754.zip"
+                    },
+                    "4755": {
+                         "chart_id": 4755,
+                         "title": "Deep Star Cave",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 1.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/4755.zip"
+                    },
+                    "4756": {
+                         "chart_id": 4756,
+                         "title": "Defend Globe",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/4756.zip"
+                    },
+                    "4757": {
+                         "chart_id": 4757,
+                         "title": "Murky Forest",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/4757.zip"
+                    },
+                    "4758": {
+                         "chart_id": 4758,
+                         "title": "A Fun Exploration",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/4758.zip"
+                    },
+                    "4777": {
+                         "chart_id": 4777,
+                         "title": "Fortune Ravine",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/4777.zip"
+                    },
+                    "4778": {
+                         "chart_id": 4778,
+                         "title": "Fortune Ravine Depths",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/4778.zip"
+                    },
+                    "4779": {
+                         "chart_id": 4779,
+                         "title": "It Can't Be...",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 1.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/4779.zip"
+                    },
+                    "4780": {
+                         "chart_id": 4780,
+                         "title": "Defend Globe (Ending)",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/4780.zip"
+                    },
+                    "4781": {
+                         "chart_id": 4781,
+                         "title": "Spring Cave",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 4.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/4781.zip"
+                    },
+                    "4782": {
+                         "chart_id": 4782,
+                         "title": "Lower Spring Cave",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/4782.zip"
+                    },
+                    "4783": {
+                         "chart_id": 4783,
+                         "title": "Spring Cave Depths",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/4783.zip"
+                    },
+                    "4784": {
+                         "chart_id": 4784,
+                         "title": "Team Charm's Theme",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 4.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/4784.zip"
+                    },
+                    "4785": {
+                         "chart_id": 4785,
+                         "title": "Southern Jungle",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 4.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/4785.zip"
+                    },
+                    "4786": {
+                         "chart_id": 4786,
+                         "title": "Boulder Quarry",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 6.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/4786.zip"
+                    },
+                    "4787": {
+                         "chart_id": 4787,
+                         "title": "Illusion Stone Chamber",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/4787.zip"
+                    },
+                    "4788": {
+                         "chart_id": 4788,
+                         "title": "Limestone Cavern",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/4788.zip"
+                    },
+                    "4789": {
+                         "chart_id": 4789,
+                         "title": "Deep Limestone Cavern",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/4789.zip"
+                    },
+                    "4790": {
+                         "chart_id": 4790,
+                         "title": "For a New Life",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/4790.zip"
+                    },
+                    "4791": {
+                         "chart_id": 4791,
+                         "title": "Barren Valley",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/4791.zip"
+                    },
+                    "4792": {
+                         "chart_id": 4792,
+                         "title": "Dark Wasteland",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/4792.zip"
+                    },
+                    "4793": {
+                         "chart_id": 4793,
+                         "title": "Spacial Cliffs",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 5.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/4793.zip"
+                    },
+                    "4794": {
+                         "chart_id": 4794,
+                         "title": "Dark Ice Mountain",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 6.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/4794.zip"
+                    },
+                    "4795": {
+                         "chart_id": 4795,
+                         "title": "Living Spirit",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/4795.zip"
+                    },
+                    "4796": {
+                         "chart_id": 4796,
+                         "title": "Icicle Forest",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/4796.zip"
+                    },
+                    "4797": {
+                         "chart_id": 4797,
+                         "title": "Proud Accomplishment",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/4797.zip"
+                    },
+                    "4798": {
+                         "chart_id": 4798,
+                         "title": "Vast Ice Mountain",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/4798.zip"
+                    },
+                    "4799": {
+                         "chart_id": 4799,
+                         "title": "Vast Ice Mountain Peak",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/4799.zip"
+                    },
+                    "4800": {
+                         "chart_id": 4800,
+                         "title": "In the Morning Sun",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/4800.zip"
+                    },
+                    "4801": {
+                         "chart_id": 4801,
+                         "title": "A New World",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/4801.zip"
+                    },
+                    "4802": {
+                         "chart_id": 4802,
+                         "title": "It's Not a Miracle",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/4802.zip"
+                    },
+                    "4803": {
+                         "chart_id": 4803,
+                         "title": "Thoughts for Friends",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 1.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/4803.zip"
+                    },
+                    "4804": {
+                         "chart_id": 4804,
+                         "title": "A Message on the Wind",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/4804.zip"
+                    },
+                    "4805": {
+                         "chart_id": 4805,
+                         "title": "Life Goes On! (Ending)",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/4805.zip"
+                    },
+                    "4806": {
+                         "chart_id": 4806,
+                         "title": "(Bonus) Wigglytuff's Guild Remix",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 2.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/4806.zip"
+                    },
+                    "4807": {
+                         "chart_id": 4807,
+                         "title": "(Bonus) Goodnight Remix",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 1.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/4807.zip"
+                    },
+                    "4808": {
+                         "chart_id": 4808,
+                         "title": "(Bonus) Unused Title Theme 1",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 1.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/4808.zip"
+                    },
+                    "4809": {
+                         "chart_id": 4809,
+                         "title": "(Bonus) Unused Title Theme 2",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 1.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/4809.zip"
+                    },
+                    "4827": {
+                         "chart_id": 4827,
+                         "title": "Leave The Door Open (Vocals)",
+                         "author": "Silk Sonic",
+                         "charter": "Gloomhonk",
+                         "difficulty": 3.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/4826.zip"
+                    },
+                    "4143": {
+                         "chart_id": 4143,
+                         "title": "Pictionary Main Theme (NES)",
+                         "author": "Tim Follin",
+                         "charter": "Gloomhonk",
+                         "difficulty": 6.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/4143.zip"
+                    },
+                    "5056": {
+                         "chart_id": 5056,
+                         "title": "Pictionary Main Theme (NES)",
+                         "author": "Tim Follin",
+                         "charter": "Gloomhonk",
+                         "difficulty": 6.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/5056.zip"
+                    },
+                    "5093": {
+                         "chart_id": 5093,
+                         "title": "Big Blue",
+                         "author": "Naoto Ishida",
+                         "charter": "Gloomhonk",
+                         "difficulty": 5.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/5093.zip"
+                    },
+                    "5092": {
+                         "chart_id": 5092,
+                         "title": "Mute City",
+                         "author": "Yumiko Kanki",
+                         "charter": "Gloomhonk",
+                         "difficulty": 3.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/5092.zip"
+                    },
+                    "5035": {
+                         "chart_id": 5035,
+                         "title": "Sky Peak Cave",
+                         "author": "Arata Iiyoshi, Hideki Sakamoto, Keisuke Ito, Royama Nakamura, Kenichi Saito",
+                         "charter": "StaticR",
+                         "difficulty": 3.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/5035.zip"
+                    }
+               }
+          },
+          "BestOfGloomhonk": {
+               "title": "Best of Gloomhonk",
+               "name": "BestOfGloomhonk",
+               "description": "A whole pack dedicated to the most committed trombone charter!",
+               "source_thread": 1178363453354819694,
+               "target_thread": 1178363926275166231,
+               "curator_id": 852237495054630943,
+               "charts": {
+                    "4827": {
+                         "chart_id": 4827,
+                         "title": "Leave The Door Open (Vocals)",
+                         "author": "Silk Sonic",
+                         "charter": "Gloomhonk",
+                         "difficulty": 3.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/4826.zip"
+                    },
+                    "5056": {
+                         "chart_id": 5056,
+                         "title": "Pictionary Main Theme (NES)",
+                         "author": "Tim Follin",
+                         "charter": "Gloomhonk",
+                         "difficulty": 6.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/5056.zip"
+                    },
+                    "5093": {
+                         "chart_id": 5093,
+                         "title": "Big Blue",
+                         "author": "Naoto Ishida",
+                         "charter": "Gloomhonk",
+                         "difficulty": 5.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/5093.zip"
+                    },
+                    "5092": {
+                         "chart_id": 5092,
+                         "title": "Mute City",
+                         "author": "Yumiko Kanki",
+                         "charter": "Gloomhonk",
+                         "difficulty": 3.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/5092.zip"
+                    },
+                    "3976": {
+                         "chart_id": 3976,
+                         "title": "Toilet",
+                         "author": "Clown Core",
+                         "charter": "Gloomhonk",
+                         "difficulty": 5.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/3976.zip"
+                    },
+                    "5206": {
+                         "chart_id": 5206,
+                         "title": "Black And Blues",
+                         "author": "Al Jarreau, William Bilal, Benedict College",
+                         "charter": "Gloomhonk",
+                         "difficulty": 3.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/5206.zip"
+                    },
+                    "5144": {
+                         "chart_id": 5144,
+                         "title": "Bustin",
+                         "author": "Neil Cicierega",
+                         "charter": "Gloomhonk",
+                         "difficulty": 4.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/5144.zip"
+                    },
+                    "5142": {
+                         "chart_id": 5142,
+                         "title": "Ghost House (Spooky Ver.)",
+                         "author": "Koji Kondo",
+                         "charter": "Gloomhonk",
+                         "difficulty": 1.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/5142.zip"
+                    },
+                    "5121": {
+                         "chart_id": 5121,
+                         "title": "Liz Truss Resigns As Prime Minister",
+                         "author": "Liz Truss",
+                         "charter": "Gloomhonk",
+                         "difficulty": 5.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/5121.zip"
+                    },
+                    "5058": {
+                         "chart_id": 5058,
+                         "title": "And I Will Never Hit Those Notes (Nerfed)",
+                         "author": "Whitney Houston x Lemonan x Susboy",
+                         "charter": "Gloomhonk",
+                         "difficulty": 3.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/5058.zip"
+                    },
+                    "5041": {
+                         "chart_id": 5041,
+                         "title": "Reptilia (Vocals)",
+                         "author": "The Strokes",
+                         "charter": "Gloomhonk",
+                         "difficulty": 3.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/5041.zip"
+                    },
+                    "4934": {
+                         "chart_id": 4934,
+                         "title": "Do You Toot?",
+                         "author": "Horn Lord",
+                         "charter": "Gloomhonk",
+                         "difficulty": 2.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/4934.zip"
+                    },
+                    "4889": {
+                         "chart_id": 4889,
+                         "title": "Laurence, The First Vicar",
+                         "author": "Tsukasa Saitoh",
+                         "charter": "Gloomhonk",
+                         "difficulty": 1.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/4889.zip"
+                    },
+                    "4887": {
+                         "chart_id": 4887,
+                         "title": "Lady Maria of the Astral Clocktower",
+                         "author": "Yuka Kitamura",
+                         "charter": "Gloomhonk",
+                         "difficulty": 1.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/4887.zip"
+                    },
+                    "3911": {
+                         "chart_id": 3911,
+                         "title": "THE EARTH",
+                         "author": "II-L ft. amelie xoxo",
+                         "charter": "Gloomhonk",
+                         "difficulty": 5.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/3911.zip"
+                    },
+                    "3890": {
+                         "chart_id": 3890,
+                         "title": "Ave Maria",
+                         "author": "Franz Schubert",
+                         "charter": "Gloomhonk",
+                         "difficulty": 1.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/3890.zip"
+                    },
+                    "3783": {
+                         "chart_id": 3783,
+                         "title": "Rock Club",
+                         "author": "Anamanaguchi",
+                         "charter": "Gloomhonk",
+                         "difficulty": 5.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/3783.zip"
+                    },
+                    "3666": {
+                         "chart_id": 3666,
+                         "title": "Sonic Drowning",
+                         "author": "Yukifumi Makino",
+                         "charter": "Gloomhonk",
+                         "difficulty": 6.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/3666.zip"
+                    },
+                    "3604": {
+                         "chart_id": 3604,
+                         "title": "Wii Shop",
+                         "author": "Kazumi Totaka",
+                         "charter": "Gloomhonk",
+                         "difficulty": 2.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/3604.zip"
+                    },
+                    "3596": {
+                         "chart_id": 3596,
+                         "title": "Sir Duke (Vocals)",
+                         "author": "Stevie Wonder",
+                         "charter": "Gloomhonk",
+                         "difficulty": 4.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/3596.zip"
+                    },
+                    "3375": {
+                         "chart_id": 3375,
+                         "title": "Say What You Will (Vocals)",
+                         "author": "James Blake",
+                         "charter": "Gloomhonk",
+                         "difficulty": 2.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/3375.zip"
+                    },
+                    "3258": {
+                         "chart_id": 3258,
+                         "title": "Trombone Scooter",
+                         "author": "Philippe Stier",
+                         "charter": "Gloomhonk",
+                         "difficulty": 1.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/3258.zip"
+                    },
+                    "3186": {
+                         "chart_id": 3186,
+                         "title": "Ryu's Theme",
+                         "author": "Yoko Shimomura",
+                         "charter": "Gloomhonk",
+                         "difficulty": 3.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/3186.zip"
+                    },
+                    "3157": {
+                         "chart_id": 3157,
+                         "title": "216.mp3",
+                         "author": "BasedTJ",
+                         "charter": "Gloomhonk",
+                         "difficulty": 6.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/3157.zip"
+                    },
+                    "3081": {
+                         "chart_id": 3081,
+                         "title": "Nightcall (Short + Vocals)",
+                         "author": "Kavinsky",
+                         "charter": "Gloomhonk",
+                         "difficulty": 2.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/3081.zip"
+                    },
+                    "3009": {
+                         "chart_id": 3009,
+                         "title": "Money Machine (Vocals)",
+                         "author": "100 gecs",
+                         "charter": "Gloomhonk",
+                         "difficulty": 3.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/3009.zip"
+                    },
+                    "2925": {
+                         "chart_id": 2925,
+                         "title": "Dolphin Shoals (Version 2)",
+                         "author": "Atsuko Asahi",
+                         "charter": "Gloomhonk",
+                         "difficulty": 4.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/2925.zip"
+                    },
+                    "2811": {
+                         "chart_id": 2811,
+                         "title": "Blackout City",
+                         "author": "Anamanaguchi",
+                         "charter": "Gloomhonk",
+                         "difficulty": 7.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/2811.zip"
+                    },
+                    "2686": {
+                         "chart_id": 2686,
+                         "title": "Fly Or Die",
+                         "author": "Gilles Rocha",
+                         "charter": "Gloomhonk",
+                         "difficulty": 6.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/2686.zip"
+                    },
+                    "2345": {
+                         "chart_id": 2345,
+                         "title": "The Airbuster",
+                         "author": "Tadayoshi Makino + Nobuo Uematsu",
+                         "charter": "Gloomhonk",
+                         "difficulty": 6.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/2345.zip"
+                    },
+                    "3465": {
+                         "chart_id": 3465,
+                         "title": "Misirlou",
+                         "author": "Dick Dale",
+                         "charter": "Gloomhonk",
+                         "difficulty": 7.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/3465.zip"
+                    },
+                    "2086": {
+                         "chart_id": 2086,
+                         "title": "Nintendo Gamecube Startup",
+                         "author": "Toru Minegishi",
+                         "charter": "Gloomhonk",
+                         "difficulty": 3.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/2086.zip"
+                    },
+                    "1619": {
+                         "chart_id": 1619,
+                         "title": "Don't Stop Believin' (Vocals)",
+                         "author": "Journey",
+                         "charter": "Gloomhonk",
+                         "difficulty": 3.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/1619.zip"
+                    },
+                    "1378": {
+                         "chart_id": 1378,
+                         "title": "Deja Vu (Vocals)",
+                         "author": "Dave Rodgers",
+                         "charter": "Gloomhonk",
+                         "difficulty": 3.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/1378.zip"
+                    },
+                    "748": {
+                         "chart_id": 748,
+                         "title": "Potion Seller Soundtrack",
+                         "author": "Gloomhonk",
+                         "charter": "Gloomhonk",
+                         "difficulty": 4.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/748.zip"
+                    },
+                    "356": {
+                         "chart_id": 356,
+                         "title": "Densmore",
+                         "author": "Anamanaguchi",
+                         "charter": "Gloomhonk",
+                         "difficulty": 5.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/356.zip"
+                    },
+                    "194": {
+                         "chart_id": 194,
+                         "title": "Chariots Of Fire",
+                         "author": "Vangelis",
+                         "charter": "Gloomhonk",
+                         "difficulty": 2.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/194.zip"
+                    },
+                    "327": {
+                         "chart_id": 327,
+                         "title": "Colin's 'Boner Animation",
+                         "author": "Gloomhonk",
+                         "charter": "Gloomhonk",
+                         "difficulty": 1.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/327.zip"
+                    }
+               }
+          },
+          "CarpalTunnel": {
+               "title": "Carpal Tunnel Pack",
+               "name": "CarpalTunnel",
+               "description": "A pack dedicated to breaking your fingers in the most fun way",
+               "source_thread": 1178413343485210764,
+               "target_thread": 1178424838164058173,
+               "curator_id": 819353458058199040,
+               "charts": {
+                    "4900": {
+                         "chart_id": 4900,
+                         "title": "FREEDOM DiVE",
+                         "author": "xi",
+                         "charter": "paper2222",
+                         "difficulty": 19.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/4900.zip"
+                    },
+                    "4769": {
+                         "chart_id": 4769,
+                         "title": "Maniera",
+                         "author": "D(ABE3)",
+                         "charter": "AncientFunland",
+                         "difficulty": 16.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/4769.zip"
+                    },
+                    "3391": {
+                         "chart_id": 3391,
+                         "title": "At the Speed of Light",
+                         "author": "Dimrain47",
+                         "charter": "AncientFunland",
+                         "difficulty": 9.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/3391.zip"
+                    },
+                    "4841": {
+                         "chart_id": 4841,
+                         "title": "Rock It",
+                         "author": "Hommarju",
+                         "charter": "AncientFunland",
+                         "difficulty": 16.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/4841.zip"
+                    },
+                    "4386": {
+                         "chart_id": 4386,
+                         "title": "Ludicrous Speed (Busted)",
+                         "author": "F-777",
+                         "charter": "bw242",
+                         "difficulty": 13.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/3605.zip"
+                    },
+                    "4383": {
+                         "chart_id": 4383,
+                         "title": "Ludicrous Speed (Normal)",
+                         "author": "F-777",
+                         "charter": "bw242",
+                         "difficulty": 13.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/3603.zip"
+                    },
+                    "3627": {
+                         "chart_id": 3627,
+                         "title": "centipede",
+                         "author": "Knife Party",
+                         "charter": "paper2222",
+                         "difficulty": 67.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/3627.zip"
+                    },
+                    "4901": {
+                         "chart_id": 4901,
+                         "title": "Paqqin",
+                         "author": "owl * tree",
+                         "charter": "silver",
+                         "difficulty": 8.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/4901.zip"
+                    },
+                    "3668": {
+                         "chart_id": 3668,
+                         "title": "9 patterns of eternal pain",
+                         "author": "Colorics",
+                         "charter": "paper2222",
+                         "difficulty": 30.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/3668.zip"
+                    },
+                    "4112": {
+                         "chart_id": 4112,
+                         "title": "\u521d\u97f3\u30df\u30af\u306e\u6fc0\u5531 / The Intense Voice of Hatsune Miku",
+                         "author": "Hatsune Miku",
+                         "charter": "paper2222",
+                         "difficulty": 6.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/4112.zip"
+                    },
+                    "4205": {
+                         "chart_id": 4205,
+                         "title": "Soulless 4",
+                         "author": "ExileLord",
+                         "charter": "paper2222",
+                         "difficulty": 18.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/4205.zip"
+                    },
+                    "4916": {
+                         "chart_id": 4916,
+                         "title": "Soulless 5",
+                         "author": "ExileLord",
+                         "charter": "paper2222",
+                         "difficulty": 17.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/4916.zip"
+                    },
+                    "5170": {
+                         "chart_id": 5170,
+                         "title": "Flight of the Bumblebee (the real version)",
+                         "author": "Nikolai Rimsky-Korsakov",
+                         "charter": "paper2222",
+                         "difficulty": 8.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/5170.zip"
+                    },
+                    "2791": {
+                         "chart_id": 2791,
+                         "title": "Kyouki Ranbu v2",
+                         "author": "Leaf",
+                         "charter": "emmett",
+                         "difficulty": 10.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/2791.zip"
+                    },
+                    "2890": {
+                         "chart_id": 2890,
+                         "title": "kawaii speedcore 654",
+                         "author": "XH",
+                         "charter": "silver",
+                         "difficulty": 14.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/2890.zip"
+                    },
+                    "3580": {
+                         "chart_id": 3580,
+                         "title": "Xenon",
+                         "author": "Mr. T",
+                         "charter": "bw242",
+                         "difficulty": 16.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/3580.zip"
+                    },
+                    "4893": {
+                         "chart_id": 4893,
+                         "title": "Xepher",
+                         "author": "Tatsh",
+                         "charter": "bw242",
+                         "difficulty": 11.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/4893.zip"
+                    },
+                    "2702": {
+                         "chart_id": 2702,
+                         "title": "Night of Knights (Flowering Nights Remix) Chart remake",
+                         "author": "beatMARIO",
+                         "charter": "silver",
+                         "difficulty": 11.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/2702.zip"
+                    },
+                    "3045": {
+                         "chart_id": 3045,
+                         "title": "Achromat",
+                         "author": "Middleisland",
+                         "charter": "Gloomhonk",
+                         "difficulty": 8.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/3045.zip"
+                    },
+                    "4461": {
+                         "chart_id": 4461,
+                         "title": "A Fool Moon Night",
+                         "author": "The Koxx",
+                         "charter": "bw242",
+                         "difficulty": 4.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/3843.zip"
+                    },
+                    "5180": {
+                         "chart_id": 5180,
+                         "title": "KIKIKAIKAI",
+                         "author": "Laur",
+                         "charter": "bw242",
+                         "difficulty": 10.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/5180.zip"
+                    },
+                    "5002": {
+                         "chart_id": 5002,
+                         "title": "VVelcome!!",
+                         "author": "MisoilePunch\u266a",
+                         "charter": "bw242",
+                         "difficulty": 11.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/5002.zip"
+                    },
+                    "4574": {
+                         "chart_id": 4574,
+                         "title": "Bloody Tears (IIDX Edition)",
+                         "author": "DJ Yoshitaka",
+                         "charter": "bw242",
+                         "difficulty": 7.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/4092.zip"
+                    },
+                    "2811": {
+                         "chart_id": 2811,
+                         "title": "Blackout City",
+                         "author": "Anamanaguchi",
+                         "charter": "Gloomhonk",
+                         "difficulty": 7.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/2811.zip"
+                    },
+                    "3781": {
+                         "chart_id": 3781,
+                         "title": "Through the Fire and Flames",
+                         "author": "DragonForce",
+                         "charter": "StaticR",
+                         "difficulty": 7.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/3781.zip"
+                    },
+                    "4923": {
+                         "chart_id": 4923,
+                         "title": "Kirby Super Star - Candy Mountain",
+                         "author": "Jun Ishikawa",
+                         "charter": "silver",
+                         "difficulty": 8.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/4923.zip"
+                    },
+                    "3850": {
+                         "chart_id": 3850,
+                         "title": "ONIGIRI FREEWAY",
+                         "author": "OISHII",
+                         "charter": "silver",
+                         "difficulty": 12.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/3850.zip"
+                    },
+                    "4764": {
+                         "chart_id": 4764,
+                         "title": "COCOA WATERSLIDE",
+                         "author": "OISHII",
+                         "charter": "silver",
+                         "difficulty": 9.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/4764.zip"
+                    },
+                    "2521": {
+                         "chart_id": 2521,
+                         "title": "Dark Sheep v2",
+                         "author": "Chroma",
+                         "charter": null,
+                         "difficulty": 10.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/2521.zip"
+                    },
+                    "3465": {
+                         "chart_id": 3465,
+                         "title": "Misirlou",
+                         "author": "Dick Dale",
+                         "charter": "Gloomhonk",
+                         "difficulty": 7.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/3465.zip"
+                    },
+                    "2694": {
+                         "chart_id": 2694,
+                         "title": "666",
+                         "author": "Roughsketch",
+                         "charter": "bw242",
+                         "difficulty": 5.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/2694.zip"
+                    },
+                    "2785": {
+                         "chart_id": 2785,
+                         "title": "Green Hornet (Theme)",
+                         "author": "Al Hirt",
+                         "charter": "bw242",
+                         "difficulty": 5.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/2785.zip"
+                    },
+                    "5161": {
+                         "chart_id": 5161,
+                         "title": "Parallel Universe Shifter",
+                         "author": "Camellia",
+                         "charter": "StaticR",
+                         "difficulty": 10.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/5018.zip"
+                    },
+                    "5089": {
+                         "chart_id": 5089,
+                         "title": "Meteorglow Aftermath",
+                         "author": "pan",
+                         "charter": "bw242",
+                         "difficulty": 9.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/5089.zip"
+                    },
+                    "4924": {
+                         "chart_id": 4924,
+                         "title": "Concertare",
+                         "author": "Waldeus von Dovjak",
+                         "charter": "bw242",
+                         "difficulty": 11.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/4924.zip"
+                    },
+                    "4914": {
+                         "chart_id": 4914,
+                         "title": "Bangarang feat. Sirah",
+                         "author": "Skrillex, Sirah",
+                         "charter": "StaticR",
+                         "difficulty": 13.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/4914.zip"
+                    },
+                    "4918": {
+                         "chart_id": 4918,
+                         "title": "#1f1e33 (from \"Arcaea\")",
+                         "author": "Camellia",
+                         "charter": "StaticR",
+                         "difficulty": 8.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/4918.zip"
+                    },
+                    "4878": {
+                         "chart_id": 4878,
+                         "title": "Unidentified Tea Party",
+                         "author": "\u6253\u6253\u3060\u3044\u305a (D-D-Dice)",
+                         "charter": "silver",
+                         "difficulty": 10.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/4878.zip"
+                    },
+                    "4877": {
+                         "chart_id": 4877,
+                         "title": "World's end loneliness",
+                         "author": "\u6253\u6253\u3060\u3044\u305a (D-D-Dice)",
+                         "charter": "silver",
+                         "difficulty": 11.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/4877.zip"
+                    },
+                    "4621": {
+                         "chart_id": 4621,
+                         "title": "\u7dcf\u529b\u6226 \u30b0\u30ec\u30b4\u30ea\u30aa Gregorius Battle",
+                         "author": "Mitsukiyo",
+                         "charter": "silver",
+                         "difficulty": 11.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/4140.zip"
+                    },
+                    "4449": {
+                         "chart_id": 4449,
+                         "title": "Francium",
+                         "author": "Nantoka-P feat. Hatsune Miku",
+                         "charter": "bw242",
+                         "difficulty": 10.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/3782.zip"
+                    },
+                    "5260": {
+                         "chart_id": 5260,
+                         "title": "The Cyber Grind - Ultrakill",
+                         "author": "meganeko",
+                         "charter": "silver",
+                         "difficulty": 14.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/5260.zip"
+                    },
+                    "3970": {
+                         "chart_id": 3970,
+                         "title": "RUSH EEEEEEEEEE",
+                         "author": "Mingchi",
+                         "charter": "px",
+                         "difficulty": 8.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/3970.zip"
+                    }
+               }
+          },
+          "FinalFantasySeries": {
+               "title": "Final Fantasy Series",
+               "name": "FinalFantasySeries",
+               "description": "A pack dedicated to one of the longest running and popular series of games, containing epic songs from acclaimed composers such as Nobuo Uematsu and Masayoshi Soken.",
+               "source_thread": 1178414967129636924,
+               "target_thread": 1178425411160506420,
+               "curator_id": 819353458058199040,
+               "charts": {
+                    "168": {
+                         "chart_id": 168,
+                         "title": "Advent: One Winged Angel",
+                         "author": "Nobuo Uematsu",
+                         "charter": null,
+                         "difficulty": 4.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/168.zip"
+                    },
+                    "2345": {
+                         "chart_id": 2345,
+                         "title": "The Airbuster",
+                         "author": "Tadayoshi Makino + Nobuo Uematsu",
+                         "charter": "Gloomhonk",
+                         "difficulty": 6.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/2345.zip"
+                    },
+                    "1933": {
+                         "chart_id": 1933,
+                         "title": "Dancing Mad (FFXIV: Stormblood)",
+                         "author": "Nobuo Uematsu (arr. Masayoshi Soken)",
+                         "charter": null,
+                         "difficulty": 5.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/1933.zip"
+                    },
+                    "4315": {
+                         "chart_id": 4315,
+                         "title": "Dedicated to Moonlight (Savage)",
+                         "author": "Masayoshi Soken",
+                         "charter": null,
+                         "difficulty": 4.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/2921.zip"
+                    },
+                    "4402": {
+                         "chart_id": 4402,
+                         "title": "Civilizations (La Hee) (Vocals)",
+                         "author": "Masayoshi Soken",
+                         "charter": "Gloomhonk",
+                         "difficulty": 3.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/3671.zip"
+                    },
+                    "5052": {
+                         "chart_id": 5052,
+                         "title": "The Final Battle (FFXIV: Endwalker)",
+                         "author": "Nobuo Uematsu (Arr. Masayoshi Soken)",
+                         "charter": "Guardie",
+                         "difficulty": 5.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/5052.zip"
+                    },
+                    "4452": {
+                         "chart_id": 4452,
+                         "title": "Vamo Alla Flamenco",
+                         "author": "Nobuo Uematsu",
+                         "charter": "Pizza vacuum",
+                         "difficulty": 4.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/3800.zip"
+                    },
+                    "4855": {
+                         "chart_id": 4855,
+                         "title": "To Zanarkand",
+                         "author": "Nobuo Uematsu",
+                         "charter": "Shorty132471",
+                         "difficulty": 4.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/4855.zip"
+                    },
+                    "2683": {
+                         "chart_id": 2683,
+                         "title": "Close in the Distance (FFXIV: Endwalker)",
+                         "author": "Masayoshi Soken",
+                         "charter": null,
+                         "difficulty": 1.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/2683.zip"
+                    },
+                    "4996": {
+                         "chart_id": 4996,
+                         "title": "Heroes (Orchestral)",
+                         "author": "Masayoshi Soken",
+                         "charter": "ChungleMcBungle",
+                         "difficulty": 4.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/4996.zip"
+                    },
+                    "2327": {
+                         "chart_id": 2327,
+                         "title": "Hopeful Dynamis (FFXIV Endwalker)",
+                         "author": "Masayoshi Soken",
+                         "charter": null,
+                         "difficulty": 1.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/2327.zip"
+                    },
+                    "5015": {
+                         "chart_id": 5015,
+                         "title": "Fleeting Moment (Drum N' Bass)",
+                         "author": "Virgin Noize / Sleeping Penguin / Masayoshi Soken",
+                         "charter": "ChungleMcBungle",
+                         "difficulty": 6.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/5015.zip"
+                    },
+                    "3139": {
+                         "chart_id": 3139,
+                         "title": "Woe That is Madness",
+                         "author": "Masayoshi Soken",
+                         "charter": "Guardie",
+                         "difficulty": 1.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/3139.zip"
+                    },
+                    "2293": {
+                         "chart_id": 2293,
+                         "title": "Fallen Angel (From Astral to Umbral)",
+                         "author": "Masayoshi Soken",
+                         "charter": null,
+                         "difficulty": 2.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/2293.zip"
+                    }
+               }
+          },
+          "EasyCharts": {
+               "title": "Easy Charts",
+               "name": "EasyCharts",
+               "description": "A pack containing only very low-difficulty charts, perfect for beginners or those that just want to vibe to the dulcet sounds of the trombone!",
+               "source_thread": 1178416652426154065,
+               "target_thread": 1178425566374932580,
+               "curator_id": 163702340015226891,
+               "charts": {
+                    "5023": {
+                         "chart_id": 5023,
+                         "title": "Hollow Knight: City of Tears",
+                         "author": "Christopher Larkin",
+                         "charter": "BennyRabbit3",
+                         "difficulty": 1.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/5023.zip"
+                    },
+                    "5097": {
+                         "chart_id": 5097,
+                         "title": "Battle Cats - 1 - The Invasion Begins",
+                         "author": "Toco Toone",
+                         "charter": "px",
+                         "difficulty": 0.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/5097.zip"
+                    },
+                    "4430": {
+                         "chart_id": 4430,
+                         "title": "BBC News Intro",
+                         "author": "BBC",
+                         "charter": "Shorty132471",
+                         "difficulty": 0.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/3736.zip"
+                    },
+                    "4435": {
+                         "chart_id": 4435,
+                         "title": "Gwyn, Lord of Cinder",
+                         "author": "Motoi Sakuraba",
+                         "charter": "Gloomhonk",
+                         "difficulty": 1.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/3747.zip"
+                    },
+                    "1103": {
+                         "chart_id": 1103,
+                         "title": "he bl\u00e5haj",
+                         "author": "Tomodachi Life",
+                         "charter": null,
+                         "difficulty": 1.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/1103.zip"
+                    },
+                    "3139": {
+                         "chart_id": 3139,
+                         "title": "Woe That is Madness",
+                         "author": "Masayoshi Soken",
+                         "charter": "Guardie",
+                         "difficulty": 1.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/3139.zip"
+                    },
+                    "3258": {
+                         "chart_id": 3258,
+                         "title": "Trombone Scooter",
+                         "author": "Philippe Stier",
+                         "charter": "Gloomhonk",
+                         "difficulty": 1.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/3258.zip"
+                    },
+                    "3981": {
+                         "chart_id": 3981,
+                         "title": "Adventures of Tintin Theme",
+                         "author": "Ray Parker & Tom Szczesniak",
+                         "charter": "Shorty132471",
+                         "difficulty": 1.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/3981.zip"
+                    },
+                    "4405": {
+                         "chart_id": 4405,
+                         "title": "Sleeping Bob-Omb",
+                         "author": "Yoshito Sekigawa, Shoh Murakami, Yoshiaki Kimura, Hiroki Morishita, Fumihiro Isobe",
+                         "charter": "Rayanne",
+                         "difficulty": 1.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/3697.zip"
+                    },
+                    "4989": {
+                         "chart_id": 4989,
+                         "title": "Futurama Theme v2",
+                         "author": "Christopher Tyng",
+                         "charter": "Random Noise",
+                         "difficulty": 1.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/4989.zip"
+                    },
+                    "4474": {
+                         "chart_id": 4474,
+                         "title": "Ave Maria",
+                         "author": "Franz Schubert",
+                         "charter": "Gloomhonk",
+                         "difficulty": 1.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/3890.zip"
+                    },
+                    "881": {
+                         "chart_id": 881,
+                         "title": "Stardew Valley OST - Stardew Valley Overture",
+                         "author": "ConcernedApe",
+                         "charter": "Shorty132471",
+                         "difficulty": 1.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/881.zip"
+                    },
+                    "1193": {
+                         "chart_id": 1193,
+                         "title": "Call Of Duty Zombies: Double-Tap Root Beer Jingle",
+                         "author": "Treyarch Sound",
+                         "charter": null,
+                         "difficulty": 1.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/1193.zip"
+                    },
+                    "4284": {
+                         "chart_id": 4284,
+                         "title": "Malo Mart",
+                         "author": "Toru Minegishi",
+                         "charter": null,
+                         "difficulty": 2.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/1384.zip"
+                    },
+                    "5143": {
+                         "chart_id": 5143,
+                         "title": "Ghost House",
+                         "author": "Koji Kondo",
+                         "charter": "Gloomhonk",
+                         "difficulty": 0.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/5143.zip"
+                    },
+                    "1043": {
+                         "chart_id": 1043,
+                         "title": "yesterday",
+                         "author": "The Beatles",
+                         "charter": null,
+                         "difficulty": 1.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/1043.zip"
+                    },
+                    "1534": {
+                         "chart_id": 1534,
+                         "title": "Rugrats Theme",
+                         "author": "Mark Mothersbaugh",
+                         "charter": "Shorty132471",
+                         "difficulty": 1.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/1534.zip"
+                    },
+                    "2132": {
+                         "chart_id": 2132,
+                         "title": "Once Upon A Time (Trombone Mix)",
+                         "author": "Toby Fox",
+                         "charter": "emmett",
+                         "difficulty": 1.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/2132.zip"
+                    },
+                    "4902": {
+                         "chart_id": 4902,
+                         "title": "Vs. Susie",
+                         "author": "Toby Fox",
+                         "charter": "Ekain",
+                         "difficulty": 1.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/4902.zip"
+                    },
+                    "4887": {
+                         "chart_id": 4887,
+                         "title": "Lady Maria of the Astral Clocktower",
+                         "author": "Yuka Kitamura",
+                         "charter": "Gloomhonk",
+                         "difficulty": 1.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/4887.zip"
+                    }
+               }
+          },
+          "Sonic": {
+               "title": "Sonic The Hedgehog Pack",
+               "name": "Sonic",
+               "description": "A pack dedicated to everyone's favorite anthropomorphic blue hedgehog and SEGA's showrunning mascot, containing a fantastic collection of songs from the games and other media.",
+               "source_thread": 1178435587322167407,
+               "target_thread": 1178436430175936682,
+               "curator_id": 313007755382226944,
+               "charts": {
+                    "489": {
+                         "chart_id": 489,
+                         "title": "Green Hill Zone",
+                         "author": "Masato Nakamura",
+                         "charter": "Deinonychus",
+                         "difficulty": 3.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/489.zip"
+                    },
+                    "1369": {
+                         "chart_id": 1369,
+                         "title": "Chemical Plant Zone",
+                         "author": "Gloomhonk",
+                         "charter": "Gloomhonk",
+                         "difficulty": 4.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/1369.zip"
+                    },
+                    "232": {
+                         "chart_id": 232,
+                         "title": "Angel Island Act I",
+                         "author": "SEGA",
+                         "charter": null,
+                         "difficulty": 2.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/232.zip"
+                    },
+                    "862": {
+                         "chart_id": 862,
+                         "title": "Sonic Mania Special Stage (Hard)",
+                         "author": "Gloomhonk",
+                         "charter": null,
+                         "difficulty": 4.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/862.zip"
+                    },
+                    "651": {
+                         "chart_id": 651,
+                         "title": "Metallic Madness Act 2",
+                         "author": "Tee Lopes",
+                         "charter": null,
+                         "difficulty": 5.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/651.zip"
+                    },
+                    "693": {
+                         "chart_id": 693,
+                         "title": "Sonic & Knuckles - No Way!",
+                         "author": "Jun Senoue",
+                         "charter": null,
+                         "difficulty": 3.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/693.zip"
+                    },
+                    "798": {
+                         "chart_id": 798,
+                         "title": "Sonic 3 & Knuckles Boss 2",
+                         "author": "Brad Buxer",
+                         "charter": null,
+                         "difficulty": 3.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/798.zip"
+                    },
+                    "985": {
+                         "chart_id": 985,
+                         "title": "Vandalize (Sonic Frontiers)",
+                         "author": "One Ok Rock",
+                         "charter": null,
+                         "difficulty": 3.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/985.zip"
+                    },
+                    "1145": {
+                         "chart_id": 1145,
+                         "title": "Open Your Heart",
+                         "author": "Crush 40",
+                         "charter": null,
+                         "difficulty": 3.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/1145.zip"
+                    },
+                    "1284": {
+                         "chart_id": 1284,
+                         "title": "Mystic Cave Zone",
+                         "author": "Masato Nakamura",
+                         "charter": "Gloomhonk",
+                         "difficulty": 3.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/1284.zip"
+                    },
+                    "2095": {
+                         "chart_id": 2095,
+                         "title": "Sonic Mania Theme - Friends",
+                         "author": "Hyper Potions ",
+                         "charter": null,
+                         "difficulty": 3.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/2095.zip"
+                    },
+                    "2239": {
+                         "chart_id": 2239,
+                         "title": "Endless Possibility",
+                         "author": "Tomoya Ohtani & Jaret Reddick",
+                         "charter": null,
+                         "difficulty": 3.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/2239.zip"
+                    },
+                    "3177": {
+                         "chart_id": 3177,
+                         "title": "Sonic Mania Special Stage - Blue Spheres",
+                         "author": "Gloomhonk",
+                         "charter": "Gloomhonk",
+                         "difficulty": 4.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/3177.zip"
+                    },
+                    "3184": {
+                         "chart_id": 3184,
+                         "title": "Windmill Isle (Day) - Sonic Unleashed [Updated]",
+                         "author": "SEGA",
+                         "charter": "CharlieTPA",
+                         "difficulty": 3.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/3184.zip"
+                    },
+                    "3363": {
+                         "chart_id": 3363,
+                         "title": "Sonic Unleashed Result Screen - E Rank",
+                         "author": "Tokyo Philharmonic Orchestra",
+                         "charter": "px",
+                         "difficulty": 2.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/3363.zip"
+                    },
+                    "4350": {
+                         "chart_id": 4350,
+                         "title": "Pleasure Castle- Twinkle Park (Sonic Adventure)",
+                         "author": "Jun Senoue",
+                         "charter": "ez",
+                         "difficulty": 1.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/3486.zip"
+                    },
+                    "4401": {
+                         "chart_id": 4401,
+                         "title": "Sonic Drowning",
+                         "author": "Yukifumi Makino",
+                         "charter": "Gloomhonk",
+                         "difficulty": 6.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/3666.zip"
+                    },
+                    "4496": {
+                         "chart_id": 4496,
+                         "title": "Emerald Hill Zone",
+                         "author": "Masato Nakamura",
+                         "charter": "CharlieTPA",
+                         "difficulty": 1.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/3928.zip"
+                    },
+                    "4526": {
+                         "chart_id": 4526,
+                         "title": "Adventures of Sonic the Hedgehog Theme",
+                         "author": "Clark Gassman",
+                         "charter": "Shorty132471",
+                         "difficulty": 2.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/3980.zip"
+                    },
+                    "4541": {
+                         "chart_id": 4541,
+                         "title": "Sonic Underground",
+                         "author": "Robbie London & Mike Piccirillo",
+                         "charter": "Shorty132471",
+                         "difficulty": 2.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/3995.zip"
+                    },
+                    "4057": {
+                         "chart_id": 4057,
+                         "title": "Chaos Battle (most of the time)",
+                         "author": "Jun Senoue",
+                         "charter": "sonicez",
+                         "difficulty": 3.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/4057.zip"
+                    },
+                    "4823": {
+                         "chart_id": 4823,
+                         "title": "Can You Feel The Sunshine (Sonic R)",
+                         "author": "Richard Jacques, TJ Davis",
+                         "charter": "Guardie",
+                         "difficulty": 3.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/4823.zip"
+                    },
+                    "4838": {
+                         "chart_id": 4838,
+                         "title": "Sonic Frontiers - Exceed Mach",
+                         "author": "Kanon Oguni",
+                         "charter": "StaticR",
+                         "difficulty": 9.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/4838.zip"
+                    },
+                    "5025": {
+                         "chart_id": 5025,
+                         "title": "Sonic 06 - Soleanna New City",
+                         "author": "Tomoya Ohtani",
+                         "charter": "px",
+                         "difficulty": 4.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/5025.zip"
+                    },
+                    "5187": {
+                         "chart_id": 5187,
+                         "title": "Sonic Frontiers - Dropaholic Remix",
+                         "author": "Tomoya Ohtani",
+                         "charter": "StaticR",
+                         "difficulty": 7.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/5187.zip"
+                    },
+                    "1330": {
+                         "chart_id": 1330,
+                         "title": "Escape From The City",
+                         "author": "Jun Senoue, Ted Poley and Tony Harnell",
+                         "charter": null,
+                         "difficulty": 2.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/1336.zip"
+                    }
+               }
+          },
+          "modcharts": {
+               "title": "mod/gimmick charts pack",
+               "name": "modcharts",
+               "description": "enjoy playing nearly unreadable charts? this is the pack for you!",
+               "source_thread": 1178414205754429501,
+               "target_thread": 1178521768416247811,
+               "curator_id": 264738939288420353,
+               "charts": {
+                    "3949": {
+                         "chart_id": 3949,
+                         "title": "fgsfds",
+                         "author": "fgsfds",
+                         "charter": "paper2222",
+                         "difficulty": 1.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/3949.zip"
+                    },
+                    "4014": {
+                         "chart_id": 4014,
+                         "title": "R",
+                         "author": "Plum",
+                         "charter": "paper2222",
+                         "difficulty": 8.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/4014.zip"
+                    },
+                    "5174": {
+                         "chart_id": 5174,
+                         "title": "Math (Run Lads Run)",
+                         "author": "KillerBlood",
+                         "charter": "paper2222",
+                         "difficulty": 6.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/5174.zip"
+                    },
+                    "5215": {
+                         "chart_id": 5215,
+                         "title": "\u5f37\u98a8\u30aa\u30fc\u30eb\u30d0\u30c3\u30af ,\u4f46\u5728\u65b0\u7af9 / Kyoufuu All Back, but in Hsinchu",
+                         "author": "Yukopi",
+                         "charter": "paper2222",
+                         "difficulty": 1.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/5215.zip"
+                    },
+                    "4738": {
+                         "chart_id": 4738,
+                         "title": "Friends.",
+                         "author": "Omori",
+                         "charter": "paper2222",
+                         "difficulty": 1.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/4738.zip"
+                    },
+                    "5133": {
+                         "chart_id": 5133,
+                         "title": "\uc5ec\ub798\uc544 / Yeo rae a",
+                         "author": "SID-Sound",
+                         "charter": "paper2222",
+                         "difficulty": 3.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/5133.zip"
+                    },
+                    "5163": {
+                         "chart_id": 5163,
+                         "title": "86 short",
+                         "author": "Dasu",
+                         "charter": "paper2222",
+                         "difficulty": 5.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/5163.zip"
+                    }
+               }
+          },
+          "Turdfest2023": {
+               "title": "Turdfest 2023: The Sharting",
+               "name": "Turdfest2023",
+               "description": "A pack containing the charts from 2023's Turdfest.",
+               "source_thread": 1178651889533984811,
+               "target_thread": 1178651957527855144,
+               "curator_id": 313007755382226944,
+               "charts": {
+                    "4931": {
+                         "chart_id": 4931,
+                         "title": "I Thlammed My Penith In the Car Door",
+                         "author": "Daffy Dumas Horacio Tiberius Armando Sheldon Duck ft. Parrapa the Rapper",
+                         "charter": "bw242",
+                         "difficulty": 2.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/4931.zip"
+                    },
+                    "4930": {
+                         "chart_id": 4930,
+                         "title": "ainavolageM",
+                         "author": "xoF yboT",
+                         "charter": "px",
+                         "difficulty": 6.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/4930.zip"
+                    },
+                    "4935": {
+                         "chart_id": 4935,
+                         "title": "Desert Bus (Sega CD)",
+                         "author": " ",
+                         "charter": "paper2222",
+                         "difficulty": 0.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/4935.zip"
+                    },
+                    "4927": {
+                         "chart_id": 4927,
+                         "title": "I wasted money on this shit",
+                         "author": "africantribecameo",
+                         "charter": "\u03a3\u03b2",
+                         "difficulty": 5.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/4927.zip"
+                    },
+                    "4932": {
+                         "chart_id": 4932,
+                         "title": "Eye of the Spider Dance",
+                         "author": "turdl3",
+                         "charter": "DerpyChap",
+                         "difficulty": 3.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/4932.zip"
+                    },
+                    "4926": {
+                         "chart_id": 4926,
+                         "title": "Heavy is Dead",
+                         "author": "Antoine Delak",
+                         "charter": "jsjosh",
+                         "difficulty": 4.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/4926.zip"
+                    },
+                    "4952": {
+                         "chart_id": 4952,
+                         "title": "uuuua aaaau",
+                         "author": "Berd",
+                         "charter": "Rayanne",
+                         "difficulty": 0.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/4952.zip"
+                    },
+                    "4955": {
+                         "chart_id": 4955,
+                         "title": "4 BIG GUYS",
+                         "author": "DigBar",
+                         "charter": "emmett",
+                         "difficulty": 5.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/4955.zip"
+                    },
+                    "4936": {
+                         "chart_id": 4936,
+                         "title": "Divorce Song",
+                         "author": "TomSka",
+                         "charter": "AncientFunland",
+                         "difficulty": 1.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/4936.zip"
+                    },
+                    "4934": {
+                         "chart_id": 4934,
+                         "title": "Do You Toot?",
+                         "author": "Horn Lord",
+                         "charter": "Gloomhonk",
+                         "difficulty": 2.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/4934.zip"
+                    },
+                    "4928": {
+                         "chart_id": 4928,
+                         "title": "Canon in D (Cello POV)",
+                         "author": "Johann Pachelbel",
+                         "charter": "Guardie",
+                         "difficulty": 2.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/4928.zip"
+                    }
+               }
+          },
+          "UndertaleDeltarune": {
+               "title": "Undertale/Deltarune Pack",
+               "name": "UndertaleDeltarune",
+               "description": "A collected mish-mosh of banger songs from the Undertale/Deltarune series by Toby Fox. (Includes Trombone Champ remixes)",
+               "source_thread": 1178937382070910986,
+               "target_thread": 1178937441961390081,
+               "curator_id": 313007755382226944,
+               "charts": {
+                    "2132": {
+                         "chart_id": 2132,
+                         "title": "Once Upon A Time (Trombone Mix)",
+                         "author": "Toby Fox",
+                         "charter": "emmett",
+                         "difficulty": 1.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/2132.zip"
+                    },
+                    "2266": {
+                         "chart_id": 2266,
+                         "title": "The Legend",
+                         "author": "Toby Fox",
+                         "charter": "ADHDboi1000",
+                         "difficulty": 2.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/2266.zip"
+                    },
+                    "2381": {
+                         "chart_id": 2381,
+                         "title": "Dummy! - Undertale [v3]",
+                         "author": "Toby Fox",
+                         "charter": "silver",
+                         "difficulty": 6.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/2381.zip"
+                    },
+                    "4302": {
+                         "chart_id": 4302,
+                         "title": "Field of Hopes and Dreams (Deltarune - Chapter 1)",
+                         "author": "Toby Fox",
+                         "charter": "Rayanne",
+                         "difficulty": 3.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/2640.zip"
+                    },
+                    "2730": {
+                         "chart_id": 2730,
+                         "title": "Undertale",
+                         "author": "Toby Fox",
+                         "charter": "Random Noise",
+                         "difficulty": 3.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/2730.zip"
+                    },
+                    "3019": {
+                         "chart_id": 3019,
+                         "title": "Scarlet Forest",
+                         "author": "Toby Fox",
+                         "charter": "emmett",
+                         "difficulty": 3.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/3019.zip"
+                    },
+                    "4463": {
+                         "chart_id": 4463,
+                         "title": "Snowy",
+                         "author": "Toby Fox",
+                         "charter": "Random Noise",
+                         "difficulty": 3.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/3852.zip"
+                    },
+                    "4042": {
+                         "chart_id": 4042,
+                         "title": "Last Goodbye - UNDERTALE",
+                         "author": "Toby Fox",
+                         "charter": "paper2222",
+                         "difficulty": 4.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/4042.zip"
+                    },
+                    "4570": {
+                         "chart_id": 4570,
+                         "title": "undertale - grandpasemi",
+                         "author": "toby fox",
+                         "charter": "paper2222",
+                         "difficulty": 1.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/4084.zip"
+                    },
+                    "4585": {
+                         "chart_id": 4585,
+                         "title": "dogbass",
+                         "author": "toby fox",
+                         "charter": "paper2222",
+                         "difficulty": 2.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/4104.zip"
+                    },
+                    "4592": {
+                         "chart_id": 4592,
+                         "title": "last episode",
+                         "author": "toby fox",
+                         "charter": "paper2222",
+                         "difficulty": 2.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/4111.zip"
+                    },
+                    "4594": {
+                         "chart_id": 4594,
+                         "title": "Ooo",
+                         "author": "Toby Fox",
+                         "charter": "paper2222",
+                         "difficulty": 0.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/4113.zip"
+                    },
+                    "4679": {
+                         "chart_id": 4679,
+                         "title": "Undertale - Ghouliday",
+                         "author": "Toby Fox",
+                         "charter": "paper2222",
+                         "difficulty": 2.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/4200.zip"
+                    },
+                    "4812": {
+                         "chart_id": 4812,
+                         "title": "Undertale 012 - Home",
+                         "author": "Toby Fox",
+                         "charter": "jsjosh",
+                         "difficulty": 2.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/4812.zip"
+                    },
+                    "4992": {
+                         "chart_id": 4992,
+                         "title": "Temmie Village",
+                         "author": "Toby Fox",
+                         "charter": "Random Noise",
+                         "difficulty": 4.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/4992.zip"
+                    },
+                    "5048": {
+                         "chart_id": 5048,
+                         "title": "Undertale - Death By Glamour",
+                         "author": "Toby Fox",
+                         "charter": "silver",
+                         "difficulty": 5.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/5048.zip"
+                    },
+                    "4643": {
+                         "chart_id": 4643,
+                         "title": "Undertale 001 - Once Upon a Time",
+                         "author": "Toby Fox",
+                         "charter": "jsjosh",
+                         "difficulty": 2.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/4162.zip"
+                    },
+                    "4644": {
+                         "chart_id": 4644,
+                         "title": "Undertale 002 - Start Menu",
+                         "author": "Toby Fox",
+                         "charter": "jsjosh",
+                         "difficulty": 1.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/4163.zip"
+                    },
+                    "4658": {
+                         "chart_id": 4658,
+                         "title": "Undertale 004 - Fallen Down",
+                         "author": "Toby Fox",
+                         "charter": "jsjosh",
+                         "difficulty": 2.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/4179.zip"
+                    },
+                    "4667": {
+                         "chart_id": 4667,
+                         "title": "Undertale 005 - Ruins",
+                         "author": "Toby Fox",
+                         "charter": "jsjosh",
+                         "difficulty": 2.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/4188.zip"
+                    },
+                    "4707": {
+                         "chart_id": 4707,
+                         "title": "Undertale 006 - Uwa!! So Temperate\u266b",
+                         "author": "Toby Fox",
+                         "charter": "jsjosh",
+                         "difficulty": 3.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/4228.zip"
+                    },
+                    "4708": {
+                         "chart_id": 4708,
+                         "title": "Undertale 007 - Anticipation",
+                         "author": "Toby Fox",
+                         "charter": "jsjosh",
+                         "difficulty": 2.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/4229.zip"
+                    },
+                    "4709": {
+                         "chart_id": 4709,
+                         "title": "Undertale 008 - Unnecessary Tension",
+                         "author": "Toby Fox",
+                         "charter": "jsjosh",
+                         "difficulty": 2.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/4230.zip"
+                    },
+                    "4715": {
+                         "chart_id": 4715,
+                         "title": "Undertale 009 - Enemy Approaching",
+                         "author": "Toby Fox",
+                         "charter": "jsjosh",
+                         "difficulty": 1.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/4715.zip"
+                    },
+                    "4767": {
+                         "chart_id": 4767,
+                         "title": "Undertale 010 - Ghost Fight",
+                         "author": "Toby Fox",
+                         "charter": "jsjosh",
+                         "difficulty": 2.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/4767.zip"
+                    },
+                    "4773": {
+                         "chart_id": 4773,
+                         "title": "Undertale 011 - Determination",
+                         "author": "Toby Fox",
+                         "charter": "jsjosh",
+                         "difficulty": 2.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/4773.zip"
+                    },
+                    "4813": {
+                         "chart_id": 4813,
+                         "title": "Undertale 013 - Home (Music Box)",
+                         "author": "Toby Fox",
+                         "charter": "jsjosh",
+                         "difficulty": 2.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/4813.zip"
+                    },
+                    "4822": {
+                         "chart_id": 4822,
+                         "title": "Undertale 014 - Heartache",
+                         "author": "Toby Fox",
+                         "charter": "jsjosh",
+                         "difficulty": 3.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/4822.zip"
+                    },
+                    "4848": {
+                         "chart_id": 4848,
+                         "title": "Undertale 015 - sans",
+                         "author": "Toby Fox",
+                         "charter": "jsjosh",
+                         "difficulty": 3.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/4848.zip"
+                    },
+                    "4867": {
+                         "chart_id": 4867,
+                         "title": "Undertale 016 - Nyeh Heh Heh!",
+                         "author": "Toby Fox",
+                         "charter": "jsjosh",
+                         "difficulty": 2.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/4867.zip"
+                    },
+                    "4875": {
+                         "chart_id": 4875,
+                         "title": "Undertale 017 - Snowy",
+                         "author": "Toby Fox",
+                         "charter": "jsjosh",
+                         "difficulty": 2.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/4875.zip"
+                    },
+                    "4879": {
+                         "chart_id": 4879,
+                         "title": "Undertale 018 - Uwa!! So Holiday\u266b",
+                         "author": "Toby Fox",
+                         "charter": "jsjosh",
+                         "difficulty": 1.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/4879.zip"
+                    },
+                    "4883": {
+                         "chart_id": 4883,
+                         "title": "Undertale 019 - Dogbass",
+                         "author": "Toby Fox",
+                         "charter": "jsjosh",
+                         "difficulty": 1.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/4883.zip"
+                    },
+                    "4864": {
+                         "chart_id": 4864,
+                         "title": "A Cyber's World?",
+                         "author": "Toby Fox",
+                         "charter": "AncientFunland",
+                         "difficulty": 4.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/4864.zip"
+                    },
+                    "5050": {
+                         "chart_id": 5050,
+                         "title": "It's Pronounced Rules",
+                         "author": "Toby Fox",
+                         "charter": "RunDomRun",
+                         "difficulty": 3.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/5050.zip"
+                    },
+                    "2263": {
+                         "chart_id": 2263,
+                         "title": "The Legend",
+                         "author": "Toby Fox",
+                         "charter": null,
+                         "difficulty": 2.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/2263.zip"
+                    },
+                    "2238": {
+                         "chart_id": 2238,
+                         "title": "Song That Might Play When You Fight Sans",
+                         "author": "Toby Fox",
+                         "charter": null,
+                         "difficulty": 4.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/2238.zip"
+                    },
+                    "2208": {
+                         "chart_id": 2208,
+                         "title": "Vs. Lancer - Deltarune",
+                         "author": "Toby Fox",
+                         "charter": "silver",
+                         "difficulty": 4.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/2208.zip"
+                    },
+                    "2206": {
+                         "chart_id": 2206,
+                         "title": "Lancer",
+                         "author": "Toby Fox",
+                         "charter": "silver",
+                         "difficulty": 3.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/2206.zip"
+                    },
+                    "2165": {
+                         "chart_id": 2165,
+                         "title": "Finale (Undertale)",
+                         "author": "Toby Fox",
+                         "charter": "emmett",
+                         "difficulty": 3.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/2165.zip"
+                    },
+                    "2131": {
+                         "chart_id": 2131,
+                         "title": "Metal Crusher (Trombone Mix)",
+                         "author": "Toby Fox",
+                         "charter": "emmett",
+                         "difficulty": 3.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/2131.zip"
+                    },
+                    "1826": {
+                         "chart_id": 1826,
+                         "title": "ASGORE",
+                         "author": "Toby Fox",
+                         "charter": "Random Noise",
+                         "difficulty": 5.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/4064.zip"
+                    },
+                    "1457": {
+                         "chart_id": 1457,
+                         "title": "Attack of the Killer Queen",
+                         "author": "Toby Fox",
+                         "charter": null,
+                         "difficulty": 4.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/1457.zip"
+                    },
+                    "1141": {
+                         "chart_id": 1141,
+                         "title": "Undertale - Spider Dance",
+                         "author": "Toby Fox",
+                         "charter": null,
+                         "difficulty": 4.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/1141.zip"
+                    },
+                    "1045": {
+                         "chart_id": 1045,
+                         "title": "Your Best Nightmare",
+                         "author": "Toby Fox",
+                         "charter": null,
+                         "difficulty": 4.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/1045.zip"
+                    },
+                    "718": {
+                         "chart_id": 718,
+                         "title": "Deltarune - Pandora Palace",
+                         "author": "Toby Fox",
+                         "charter": null,
+                         "difficulty": 2.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/718.zip"
+                    },
+                    "522": {
+                         "chart_id": 522,
+                         "title": "Hopes and Dreams",
+                         "author": "Toby Fox",
+                         "charter": null,
+                         "difficulty": 4.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/522.zip"
+                    },
+                    "254": {
+                         "chart_id": 254,
+                         "title": "Battle Against A True Hero",
+                         "author": "Toby Fox",
+                         "charter": null,
+                         "difficulty": 4.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/254.zip"
+                    },
+                    "4233": {
+                         "chart_id": 4233,
+                         "title": "Bonetrousle (Trombone Champ Remix)",
+                         "author": "tobyfox",
+                         "charter": null,
+                         "difficulty": 6.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/1123.zip"
+                    },
+                    "4272": {
+                         "chart_id": 4272,
+                         "title": "Rude Buster (Trombone Champ Remix)",
+                         "author": "tobyfox",
+                         "charter": null,
+                         "difficulty": 5.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/1185.zip"
+                    },
+                    "937": {
+                         "chart_id": 937,
+                         "title": "The World Revolving (Trombone Champ Mix)",
+                         "author": "NyxTheShield",
+                         "charter": null,
+                         "difficulty": 5.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/937.zip"
+                    }
+               }
+          },
+          "Meme": {
+               "title": "Meme Pack",
+               "name": "Meme",
+               "description": "A pack dedicated to meme charts, or any funny chart in general",
+               "source_thread": 1180526082319986819,
+               "target_thread": 1180526184333848806,
+               "curator_id": 819353458058199040,
+               "charts": {
+                    "4051": {
+                         "chart_id": 4051,
+                         "title": "boat dog",
+                         "author": "Markiplier",
+                         "charter": "Shorty132471",
+                         "difficulty": 0.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/4051.zip"
+                    },
+                    "3258": {
+                         "chart_id": 3258,
+                         "title": "Trombone Scooter",
+                         "author": "Philippe Stier",
+                         "charter": "Gloomhonk",
+                         "difficulty": 1.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/3258.zip"
+                    },
+                    "4952": {
+                         "chart_id": 4952,
+                         "title": "uuuua aaaau",
+                         "author": "Berd",
+                         "charter": "Rayanne",
+                         "difficulty": 0.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/4952.zip"
+                    },
+                    "2776": {
+                         "chart_id": 2776,
+                         "title": "a - Gawr Gura",
+                         "author": "Gawr Gura",
+                         "charter": "\u03a3\u03b2",
+                         "difficulty": 0.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/2776.zip"
+                    },
+                    "4930": {
+                         "chart_id": 4930,
+                         "title": "ainavolageM",
+                         "author": "xoF yboT",
+                         "charter": "px",
+                         "difficulty": 6.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/4930.zip"
+                    },
+                    "4936": {
+                         "chart_id": 4936,
+                         "title": "Divorce Song",
+                         "author": "TomSka",
+                         "charter": "AncientFunland",
+                         "difficulty": 1.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/4936.zip"
+                    },
+                    "4935": {
+                         "chart_id": 4935,
+                         "title": "Desert Bus (Sega CD)",
+                         "author": " ",
+                         "charter": "paper2222",
+                         "difficulty": 0.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/4935.zip"
+                    },
+                    "2278": {
+                         "chart_id": 2278,
+                         "title": "10 Hours Of Silence Occasionally Broken By The First 4 Notes Of Megalovania",
+                         "author": "Toby Fox + ikereviews number 2",
+                         "charter": "Gloomhonk",
+                         "difficulty": 3.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/2278.zip"
+                    },
+                    "423": {
+                         "chart_id": 423,
+                         "title": "The FitnessGram Pacer Test",
+                         "author": "The Cooper Institute",
+                         "charter": null,
+                         "difficulty": 0.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/423.zip"
+                    },
+                    "4931": {
+                         "chart_id": 4931,
+                         "title": "I Thlammed My Penith In the Car Door",
+                         "author": "Daffy Dumas Horacio Tiberius Armando Sheldon Duck ft. Parrapa the Rapper",
+                         "charter": "bw242",
+                         "difficulty": 2.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/4931.zip"
+                    },
+                    "4927": {
+                         "chart_id": 4927,
+                         "title": "I wasted money on this shit",
+                         "author": "africantribecameo",
+                         "charter": "\u03a3\u03b2",
+                         "difficulty": 5.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/4927.zip"
+                    },
+                    "5121": {
+                         "chart_id": 5121,
+                         "title": "Liz Truss Resigns As Prime Minister",
+                         "author": "Liz Truss",
+                         "charter": "Gloomhonk",
+                         "difficulty": 5.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/5121.zip"
+                    },
+                    "5058": {
+                         "chart_id": 5058,
+                         "title": "And I Will Never Hit Those Notes (Nerfed)",
+                         "author": "Whitney Houston x Lemonan x Susboy",
+                         "charter": "Gloomhonk",
+                         "difficulty": 3.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/5058.zip"
+                    },
+                    "3776": {
+                         "chart_id": 3776,
+                         "title": "Saxophone Fail",
+                         "author": "Unknown",
+                         "charter": "Gloomhonk",
+                         "difficulty": 1.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/3776.zip"
+                    },
+                    "3969": {
+                         "chart_id": 3969,
+                         "title": "Can Can but I got distracted",
+                         "author": "Mingchi",
+                         "charter": "px",
+                         "difficulty": 6.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/3969.zip"
+                    },
+                    "3970": {
+                         "chart_id": 3970,
+                         "title": "RUSH EEEEEEEEEE",
+                         "author": "Mingchi",
+                         "charter": "px",
+                         "difficulty": 8.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/3970.zip"
+                    },
+                    "5228": {
+                         "chart_id": 5228,
+                         "title": "Sticking Out Your Gyatt for the Rizzler",
+                         "author": "Flea",
+                         "charter": "AncientFunland",
+                         "difficulty": 1.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/5228.zip"
+                    },
+                    "2108": {
+                         "chart_id": 2108,
+                         "title": "Delfino Plaza, High Quality Rip",
+                         "author": "Koji Kondo*",
+                         "charter": null,
+                         "difficulty": 4.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/2108.zip"
+                    },
+                    "1842": {
+                         "chart_id": 1842,
+                         "title": "1 2 Gourmet Race",
+                         "author": "SilvaGunner",
+                         "charter": "Random Noise",
+                         "difficulty": 3.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/1842.zip"
+                    },
+                    "787": {
+                         "chart_id": 787,
+                         "title": "roundabout",
+                         "author": "Yes",
+                         "charter": null,
+                         "difficulty": 3.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/787.zip"
+                    },
+                    "2393": {
+                         "chart_id": 2393,
+                         "title": "Bill Nye (Chinese)",
+                         "author": "Bill Nye",
+                         "charter": null,
+                         "difficulty": 1.8,
+                         "download": "https://cdn.toottally.com/chartmirrors/2393.zip"
+                    },
+                    "1664": {
+                         "chart_id": 1664,
+                         "title": "Blue (Da Ba Dee)",
+                         "author": "Eiffel 65",
+                         "charter": "Shorty132471",
+                         "difficulty": 5.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/1664.zip"
+                    },
+                    "282": {
+                         "chart_id": 282,
+                         "title": "BRODYQUEST",
+                         "author": "Neil Cicierega",
+                         "charter": null,
+                         "difficulty": 4.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/282.zip"
+                    },
+                    "5144": {
+                         "chart_id": 5144,
+                         "title": "Bustin",
+                         "author": "Neil Cicierega",
+                         "charter": "Gloomhonk",
+                         "difficulty": 4.6,
+                         "download": "https://cdn.toottally.com/chartmirrors/5144.zip"
+                    },
+                    "4960": {
+                         "chart_id": 4960,
+                         "title": "Cbat (SFW Background)",
+                         "author": "Hudson Mohawke",
+                         "charter": "Gloomhonk",
+                         "difficulty": 3.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/4960.zip"
+                    },
+                    "1193": {
+                         "chart_id": 1193,
+                         "title": "Call Of Duty Zombies: Double-Tap Root Beer Jingle",
+                         "author": "Treyarch Sound",
+                         "charter": null,
+                         "difficulty": 1.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/1193.zip"
+                    },
+                    "4166": {
+                         "chart_id": 4166,
+                         "title": "Family Guy Fart Contest",
+                         "author": "Peter Griffin & Michael Moore",
+                         "charter": "Shorty132471",
+                         "difficulty": 1.9,
+                         "download": "https://cdn.toottally.com/chartmirrors/4166.zip"
+                    },
+                    "3949": {
+                         "chart_id": 3949,
+                         "title": "fgsfds",
+                         "author": "fgsfds",
+                         "charter": "paper2222",
+                         "difficulty": 1.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/3949.zip"
+                    },
+                    "2849": {
+                         "chart_id": 2849,
+                         "title": "Gandalf Sax",
+                         "author": "Epic Sax Guy",
+                         "charter": null,
+                         "difficulty": 2.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/2849.zip"
+                    },
+                    "2126": {
+                         "chart_id": 2126,
+                         "title": "No Cock Like Horse Cock",
+                         "author": "Pepper Coyote",
+                         "charter": null,
+                         "difficulty": 2.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/2126.zip"
+                    },
+                    "4847": {
+                         "chart_id": 4847,
+                         "title": "How Y'all Look When You Keep Uploading Custom Megalos",
+                         "author": "LiterallyNoOne",
+                         "charter": "Guardie",
+                         "difficulty": 5.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/4847.zip"
+                    },
+                    "1497": {
+                         "chart_id": 1497,
+                         "title": "Sad Cat Dance",
+                         "author": "Gypsy In My Mind",
+                         "charter": null,
+                         "difficulty": 1.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/1497.zip"
+                    },
+                    "4094": {
+                         "chart_id": 4094,
+                         "title": "JORT STORM",
+                         "author": "Slimecicle",
+                         "charter": "paper2222",
+                         "difficulty": 3.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/4094.zip"
+                    },
+                    "3041": {
+                         "chart_id": 3041,
+                         "title": "Jan Egeland",
+                         "author": "Ylvis",
+                         "charter": null,
+                         "difficulty": 3.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/3041.zip"
+                    },
+                    "5152": {
+                         "chart_id": 5152,
+                         "title": "MAX POWER-33 MAX VERSTAPPEN",
+                         "author": "Carte Blanq",
+                         "charter": "Space Kidd",
+                         "difficulty": 3.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/5152.zip"
+                    },
+                    "3319": {
+                         "chart_id": 3319,
+                         "title": "The Nutshack Intro ft. NUMP",
+                         "author": "NUMP",
+                         "charter": null,
+                         "difficulty": 2.2,
+                         "download": "https://cdn.toottally.com/chartmirrors/3319.zip"
+                    },
+                    "4113": {
+                         "chart_id": 4113,
+                         "title": "Ooo",
+                         "author": "Toby Fox",
+                         "charter": "paper2222",
+                         "difficulty": 0.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/4113.zip"
+                    },
+                    "4167": {
+                         "chart_id": 4167,
+                         "title": "piss",
+                         "author": "SilentManJoe",
+                         "charter": "RunDomRun",
+                         "difficulty": 0.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/4167.zip"
+                    },
+                    "4991": {
+                         "chart_id": 4991,
+                         "title": "Random80634",
+                         "author": "Random Noise",
+                         "charter": "Random Noise",
+                         "difficulty": 5.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/4991.zip"
+                    },
+                    "3666": {
+                         "chart_id": 3666,
+                         "title": "Sonic Drowning",
+                         "author": "Yukifumi Makino",
+                         "charter": "Gloomhonk",
+                         "difficulty": 6.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/3666.zip"
+                    },
+                    "5096": {
+                         "chart_id": 5096,
+                         "title": "The Spy",
+                         "author": "Valve",
+                         "charter": "Random Noise",
+                         "difficulty": 0.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/5096.zip"
+                    },
+                    "3976": {
+                         "chart_id": 3976,
+                         "title": "Toilet",
+                         "author": "Clown Core",
+                         "charter": "Gloomhonk",
+                         "difficulty": 5.5,
+                         "download": "https://cdn.toottally.com/chartmirrors/3976.zip"
+                    },
+                    "5118": {
+                         "chart_id": 5118,
+                         "title": "Skibidi Toilet",
+                         "author": "Skibidi Toilet",
+                         "charter": "emmett",
+                         "difficulty": 1.7,
+                         "download": "https://cdn.toottally.com/chartmirrors/5118.zip"
+                    },
+                    "4948": {
+                         "chart_id": 4948,
+                         "title": "We Are Number One",
+                         "author": "M\u00e1ni Svavarsson",
+                         "charter": "StaticR",
+                         "difficulty": 4.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/4948.zip"
+                    },
+                    "4926": {
+                         "chart_id": 4926,
+                         "title": "Heavy is Dead",
+                         "author": "Antoine Delak",
+                         "charter": "jsjosh",
+                         "difficulty": 4.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/4926.zip"
+                    }
+               }
+          },
+          "WinterHoliday": {
+               "title": "Winter Holiday Pack",
+               "name": "WinterHoliday",
+               "description": "A mix of holiday favorites",
+               "source_thread": 1180569233302749314,
+               "target_thread": 1180569547829411891,
+               "curator_id": 411745006676869120,
+               "charts": {
+                    "225": {
+                         "chart_id": 225,
+                         "title": "All I Want For Christmas Is You",
+                         "author": "Mariah Carey",
+                         "charter": null,
+                         "difficulty": 3.1,
+                         "download": "https://cdn.toottally.com/chartmirrors/225.zip"
+                    },
+                    "1670": {
+                         "chart_id": 1670,
+                         "title": "In the Hall of the Mountain King",
+                         "author": "Edvard Grieg",
+                         "charter": null,
+                         "difficulty": 5.4,
+                         "download": "https://cdn.toottally.com/chartmirrors/1670.zip"
+                    },
+                    "602": {
+                         "chart_id": 602,
+                         "title": "Let it Go",
+                         "author": "Idina Menzel",
+                         "charter": "Shorty132471",
+                         "difficulty": 3.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/602.zip"
+                    },
+                    "1320": {
+                         "chart_id": 1320,
+                         "title": "Carol of the Bells (metal)",
+                         "author": "Alexander Nakarada",
+                         "charter": "emmett",
+                         "difficulty": 4.3,
+                         "download": "https://cdn.toottally.com/chartmirrors/1320.zip"
+                    },
+                    "854": {
+                         "chart_id": 854,
+                         "title": "Snow Halation",
+                         "author": "mu's",
+                         "charter": null,
+                         "difficulty": 4.0,
+                         "download": "https://cdn.toottally.com/chartmirrors/854.zip"
+                    }
+               }
+          }
+     },
+     "threads": {
+          "1178354572746559540": "pmd2",
+          "1178363453354819694": "BestOfGloomhonk",
+          "1178413343485210764": "CarpalTunnel",
+          "1178414967129636924": "FinalFantasySeries",
+          "1178416652426154065": "EasyCharts",
+          "1178435587322167407": "Sonic",
+          "1178414205754429501": "modcharts",
+          "1178651889533984811": "Turdfest2023",
+          "1178937382070910986": "UndertaleDeltarune",
+          "1180526082319986819": "Meme",
+          "1180569233302749314": "WinterHoliday"
+     }
+}
