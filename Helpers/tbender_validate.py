@@ -7,6 +7,9 @@ def validate_song(song:Song, message:disnake.Message, fstruct:list):
     #Validate alphanumeric ref/folder
     if not validate_alphanum(song.tmb["trackRef"], fstruct[2]) and globals.settings.verification.alphanumeric:
         return globals.settings.lang.rejects.alphanum
+    #Validate trackRef length
+    if not validate_trackref_length(song.tmb["trackRef"]):
+        return globals.settings.lang.rejects.trackreflen.replace("$VAR", globals.settings.verification.max_trackref_length)
     improv = validate_improv(song.tmb)
     if not improv == True:
         return globals.settings.lang.rejects.invalid_improv.replace("$VAR", str(improv).upper())
@@ -37,6 +40,11 @@ def validate_alphanum(trackref:str, foldername:str):
     if not regex_compare(expression, trackref):
         return False
     if not regex_compare(expression, foldername):
+        return False
+    return True
+
+def validate_trackref_length(trackref:str):
+    if len(trackref) > int(globals.settings.verification.max_trackref_length):
         return False
     return True
 
