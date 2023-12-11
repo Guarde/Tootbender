@@ -210,7 +210,7 @@ async def tt_post(api_key, song:Song):
     else:
         botLog("info", "Song successfully posted to TootTally")
         response = await req.read()
-        globals.all_charts.add_song(response, song.duration, song.download, song.creator, song.tmb["author"])
+        #globals.all_charts.add_song(response, song.duration, song.download, song.creator, song.tmb["author"])
 
 def video_to_png(filename):
     cam = cv2.VideoCapture(filename)
