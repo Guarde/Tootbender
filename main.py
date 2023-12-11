@@ -183,18 +183,24 @@ async def update_message(inter:disnake.ApplicationCommandInteraction):
 @bot.slash_command()
 async def updatechartlist(inter:disnake.ApplicationCommandInteraction):
     """Manually fetch a full list of charts from TootTally"""
-    await globals.all_charts.get_songs(inter)
+    if not tbender_commands.is_mod(inter.author):
+        await tbender_commands.permission_denied(inter)
+    else:
+        await globals.all_charts.get_songs(inter)
 
 @bot.slash_command()
 async def permit(inter:disnake.ApplicationCommandInteraction, user:disnake.User=commands.Param(description="Target user"), size:int=commands.Param(description="Maximum file size in MB"), duration:int=commands.Param(description="Timeout in minutes")):
     """Get a list of Tootbender's commands"""
     response = await tbender_commands.permit(inter, user, size, duration*60)
-    if response:
-        bot.permits.append(response)
-        await asyncio.sleep(duration*60)
-        try:
-            bot.permits.remove(response)
-        except ValueError:
-            pass
+    if not tbender_commands.is_mod(inter.author):
+        await tbender_commands.permission_denied(inter)
+    else:
+        if response:
+            bot.permits.append(response)
+            await asyncio.sleep(duration*60)
+            try:
+                bot.permits.remove(response)
+            except ValueError:
+                pass
 
 bot.run(globals.settings.general.bot_token)

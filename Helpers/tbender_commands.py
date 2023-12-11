@@ -64,8 +64,10 @@ async def help(inter:disnake.ApplicationCommandInteraction):
     emb.add_field("/paths <platform>", "Get a list of relevant game paths.", inline = False)
     # /modsearch
     emb.add_field("/modsearch [Mod Name]", "Search for mods on Thunderstore.\n`Mod Name (Optional)`: Name of the mod you wish to look up.\n*Use without parameters to show a list of availble mods*", inline = False)
-    # /search
+    # /rank
     emb.add_field("/rank <user>", "Shows a user's TootTally profile, if available. Use without arguments to show own profile", inline = False)
+    # /randomchart
+    emb.add_field("/randomchart", "Don't know what to play? Get a random chart", inline = False)
     # /search
     emb.add_field("/search [query]", "Search for charts on TootTally.", inline = False)
     # /search
@@ -75,6 +77,12 @@ async def help(inter:disnake.ApplicationCommandInteraction):
     if is_mod(inter.author):
         # /permit
         emb.add_field("/permit <user> [size]", "Allow a user to upload a bigger file for 30 minutes. (Size in megabytes)", inline = False)
+        # /updatechartlist
+        emb.add_field("/updatechartlist", "Manually fetch all charts from TootTally (used for /randomchart and search autocompletion)", inline = False)
+    await inter.send(embed=emb)
+
+async def permission_denied(inter:disnake.ApplicationCommandInteraction):
+    emb = disnake.Embed(title="Permission denied!", description=f"You are not allowed to do this...", color=disnake.Color.red())
     await inter.send(embed=emb)
 
 async def toottally_rank(inter:disnake.ApplicationCommandInteraction, target_user:disnake.User):
