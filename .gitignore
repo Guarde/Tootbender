@@ -364,3 +364,4 @@ FodyWeavers.xsd
 
 /config.ini
 /credentials.json
+/Helpers/songs.json

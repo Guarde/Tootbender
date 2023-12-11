@@ -118,7 +118,7 @@ async def handle_submission(self, message:disnake.Message, db, google):
             pass
     if not globals.settings.general.debug == True:
         #Post to TootTally
-        await tt_post(globals.settings.upload.tt_api_key, song.as_dict())
+        await tt_post(globals.settings.upload.tt_api_key, song)
         
         #Add to Spreadsheet
         google.post_spreadsheet(song)
@@ -200,15 +200,17 @@ async def post_song(self, message:disnake.Message, song:Song):
         thread = await msg.create_thread(name = song.name + " Discussion")
         await thread.add_user(message.author)
 
-async def tt_post(api_key, song:dict):
+async def tt_post(api_key, song:Song):
     url = "https://toottally.com/api/upload/"
-    data = {"song": json.dumps(song), "api_key": api_key}
+    data = {"song": json.dumps(song.as_dict()), "api_key": api_key}
     req = await globals.session.post(url, data=data)
     if not req.ok:
         message = f"POST request returned error [{req.status}] {req.reason}"
         botLog("warning", message)
     else:
         botLog("info", "Song successfully posted to TootTally")
+        response = await req.read()
+        globals.all_charts.add_song(response, song.duration, song.download, song.creator, song.tmb["author"])
 
 def video_to_png(filename):
     cam = cv2.VideoCapture(filename)

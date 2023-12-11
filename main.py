@@ -1,3 +1,4 @@
+from random import choice
 from Helpers import globals
 from Helpers.globals import botLog
 import disnake, os, asyncio
@@ -109,6 +110,16 @@ async def modsearch(inter:disnake.ApplicationCommandInteraction, search:str=comm
 async def search(inter:disnake.ApplicationCommandInteraction, search:str=commands.Param(description="The name, artist or other info of the chart you want to search for.", autocomplete=tt_search.chart_search_autocomplete)):
     """Search for charts by name or artist!"""
     await tt_search.command(bot, inter, search)
+
+@bot.slash_command()
+async def randomchart(inter:disnake.ApplicationCommandInteraction, rated:str=commands.Param(description="Rated Status", choices=["Rated", "Unrated", "Unspecified"])):
+    """Get a random chart!"""
+    status = None
+    if rated == "Rated":
+        status = True
+    if rated == "Unrated":
+        status = False        
+    await tbender_commands.randomchart(inter, status)
     
 @bot.slash_command()
 async def tootbender(inter:disnake.ApplicationCommandInteraction):
@@ -168,7 +179,11 @@ async def remove(inter:disnake.ApplicationCommandInteraction, ids:str):
 @pack.sub_command()
 async def update_message(inter:disnake.ApplicationCommandInteraction):
     """Manually update the chart pack message"""
-    await packs_commands.update_message(inter)
+
+@bot.slash_command()
+async def updatechartlist(inter:disnake.ApplicationCommandInteraction):
+    """Manually fetch a full list of charts from TootTally"""
+    await globals.all_charts.get_songs(inter)
 
 @bot.slash_command()
 async def permit(inter:disnake.ApplicationCommandInteraction, user:disnake.User=commands.Param(description="Target user"), size:int=commands.Param(description="Maximum file size in MB"), duration:int=commands.Param(description="Timeout in minutes")):

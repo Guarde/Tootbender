@@ -409,4 +409,14 @@ async def r2modman(inter:disnake.ApplicationCommandInteraction):
     emb.add_field("Links:", "[Thunderstore Page (Download)](https://thunderstore.io/package/ebkr/r2modman/) | [GitHub Repo (Source Code)](https://github.com/ebkr/r2modmanPlus)", inline=False)
     await inter.send(embed=emb)
 
+async def randomchart(inter:disnake.ApplicationCommandInteraction, rated):
+    c = globals.all_charts.get_random(rated)
+    emb = embed_builder(c["name"], globals.all_charts.to_discord(c))
+    await inter.send(embed=emb)
+    
+async def refresh_chart_list(inter:disnake.ApplicationCommandInteraction):
+    await globals.all_charts.get_songs()
+    
+    
+
 fullmodlist = modsearch_update_list()
