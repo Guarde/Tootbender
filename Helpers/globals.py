@@ -101,6 +101,7 @@ class AllSongs:
         emb = disnake.Embed(title="Retrieving Song List from TootTally...", description="Preparing...", color=disnake.Color.orange())
         await inter.send(embed=emb)
         start_time = datetime.timestamp(datetime.now())
+        self.completed = 0
 
         def progress_bar():
             progress = math.floor((self.completed/self.pages) * 100)
