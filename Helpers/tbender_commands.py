@@ -85,6 +85,15 @@ async def permission_denied(inter:disnake.ApplicationCommandInteraction):
     emb = disnake.Embed(title="Permission denied!", description=f"You are not allowed to do this...", color=disnake.Color.red())
     await inter.send(embed=emb)
 
+async def update_chart_owner(inter:disnake.ApplicationCommandInteraction, user:disnake.User, trackRef:str, db):
+    response = db.set_owner(trackRef, user.display_name, user.id)
+    if response:
+         emb = disnake.Embed(title="Success!", description=f"Set {user.display_name} as the owner of {trackRef}!", color=disnake.Color.green())
+    else:
+         emb = disnake.Embed(title="Failure!", description=f"Could not find the trackRef \"{trackRef}\ in the database", color=disnake.Color.red())
+
+    await inter.send(embed=emb)
+
 async def toottally_rank(inter:disnake.ApplicationCommandInteraction, target_user:disnake.User):
     emb = disnake.Embed(title="TootTally Rank", description= "Obtaining information...")
     await inter.send(embed=emb)

@@ -89,7 +89,9 @@ async def handle_submission(self, message:disnake.Message, db, google):
 
     #Confirm unique trackref
     trackref = song.tmb["trackRef"]
-    if globals.settings.verification.unique_trackref and not db.check_trackref(trackref):
+    can_use, song_id = db.check_trackref(trackref, message.author.id)
+    if globals.settings.verification.unique_trackref and not can_use:
+        botLog("message", "trackRef already exists and is not made by user")
         await reject_song(message, globals.settings.lang.rejects.trackref.replace("$VAR", trackref))
         return
     botLog("info", "Song validation successful!")
@@ -116,15 +118,20 @@ async def handle_submission(self, message:disnake.Message, db, google):
             self.permits.remove((user, maxsize, mess))
         except ValueError:
             pass
+        
+
+    #Add to Database
+    if song_id:
+        db.update_row(song, song_id)
+    else:
+        db.post_chart(song)
+ 
     if not globals.settings.general.debug == True:
         #Post to TootTally
         await tt_post(globals.settings.upload.tt_api_key, song)
         
         #Add to Spreadsheet
         google.post_spreadsheet(song)
-
-        #Add to Database
-        db.post_chart(song)
 
     #Clear temp folder
     clear_folder()

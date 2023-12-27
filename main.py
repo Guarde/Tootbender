@@ -189,6 +189,14 @@ async def updatechartlist(inter:disnake.ApplicationCommandInteraction):
         await globals.all_charts.get_songs(inter)
 
 @bot.slash_command()
+async def setchartowner(inter:disnake.ApplicationCommandInteraction, user:disnake.User, trackref:str):
+    """Manually set the owner of a chart in the bot's database"""
+    if not tbender_commands.is_mod(inter.author):
+        await tbender_commands.permission_denied(inter)
+    else:
+        await tbender_commands.update_chart_owner(inter, user, trackref, db)
+
+@bot.slash_command()
 async def permit(inter:disnake.ApplicationCommandInteraction, user:disnake.User=commands.Param(description="Target user"), size:int=commands.Param(description="Maximum file size in MB"), duration:int=commands.Param(description="Timeout in minutes")):
     """Get a list of Tootbender's commands"""
     response = await tbender_commands.permit(inter, user, size, duration*60)
