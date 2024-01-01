@@ -1,3 +1,4 @@
+from logging.config import ConvertingList
 import disnake, json, math, datetime, asyncio
 from os import path
 from Helpers.globals import botLog
@@ -300,15 +301,16 @@ def modsearch_autocomplete(inter: disnake.ApplicationCommandInteraction, user_in
 
 async def modsearch_update_list():
     global fullmodlist
+    global rawmodlist
     url = "https://thunderstore.io/api/experimental/frontend/c/trombone-champ/packages/?page={page}"
     page = 1
     req = await globals.session.get(url.format(page=page))
     if not req.ok:
         botLog("Error", f"Encountered the following http error when trying to fetch modlist: [{req.status}] {req.reason}")
-        fullmodlist = []
         return
     
     mods = ["LIST"]
+    raw_mods = []
     data = json.loads(await req.read())
     skips = ["r2modman", "BepInExPack_TromboneChamp"]
     more_pages = True
@@ -320,6 +322,7 @@ async def modsearch_update_list():
             if mod["package_name"] in skips:
                 continue
             mods.append(mod["package_name"])
+            raw_mods.append(mod)
         if more_pages:
             page += 1
             req = await globals.session.get(url.format(page=page))
@@ -327,48 +330,37 @@ async def modsearch_update_list():
             if not req.ok:
                 botLog("Error", f"Encountered the following http error when trying to fetch modlist page {page}: [{req.status}] {req.reason}")
                 fullmodlist = mods
+                rawmodlist = raw_mods
                 return
     fullmodlist = mods
+    rawmodlist = raw_mods
 
 
 async def modsearch(inter:disnake.ApplicationCommandInteraction, search:str):
-    req = await globals.session.get("https://thunderstore.io/api/experimental/frontend/c/trombone-champ/packages/")
-    
-    if not req.ok:
-        emb = embed_builder("API Error", f"API Request exited with error [{req.status}] {req.reason}")
-        await inter.send(embed=emb)
-        return
-    data = await req.text()
-    data = json.loads(data)
-
-    skips = ["r2modman", "BepInExPack_TromboneChamp"]
-    mods = []
-
-    for mod in data["packages"]:
-        if mod["is_deprecated"]:
-            continue
-        if mod["package_name"] in skips:
-            continue
-
-        mods.append(mod["package_name"])
-
     if search.lower() == "list":
-        await modsearch_empty(inter, mods)
+        await modsearch_empty(inter)
         return
 
-    await modsearch_notempty(inter, data, search)
+    await modsearch_notempty(inter, search)
 
-async def modsearch_empty(inter:disnake.ApplicationCommandInteraction, mods:list):    
-    emb = embed_builder("Trombone Champ Mods", f"The following {len(mods)} mods have been found on Thunderstore:\n*(Use /modsearch <modname> to view details)*")
-    stop1 = math.ceil(len(mods)/3)
-    stop2 = math.floor(len(mods)/1.5)
-    emb.add_field("\u200c", "\n".join(mods[:stop1]))
-    emb.add_field("\u200c", "\n".join(mods[stop1:stop2]))
-    emb.add_field("\u200c", "\n".join(mods[stop2:]))
+async def modsearch_empty(inter:disnake.ApplicationCommandInteraction):    
+    emb = embed_builder("Trombone Champ Mods", f"The following {len(fullmodlist)} mods have been found on Thunderstore:\n*(Use /modsearch <modname> to view details)*")
+    columns = math.ceil(len(fullmodlist)/20)
+    print(columns)
+    modlist = fullmodlist
+    modlist.remove("LIST")
+    for c in range(columns):
+        start = 30 * c
+        stop = 30 * (c + 1)
+        if stop > len(fullmodlist):
+            stop = len(fullmodlist)
+        emb.add_field("\u200c", "\n".join(fullmodlist[start:stop]))
+
     await inter.send(embed=emb)
 
-async def modsearch_notempty(inter:disnake.ApplicationCommandInteraction, data:dict, search:str):
-    for mod in data["packages"]:
+async def modsearch_notempty(inter:disnake.ApplicationCommandInteraction, search:str):
+    global rawmodlist
+    for mod in rawmodlist:
         if mod["package_name"].lower() == search.lower():
             name = mod["package_name"]
             namespace = mod["namespace"]
@@ -468,5 +460,6 @@ async def refresh_chart_list(inter:disnake.ApplicationCommandInteraction):
     await globals.all_charts.get_songs()
     
     
-
+    
 fullmodlist = []
+rawmodlist = []
