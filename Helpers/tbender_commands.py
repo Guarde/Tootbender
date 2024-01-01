@@ -1,9 +1,10 @@
-import disnake, json, math, datetime, requests
+import disnake, json, math, datetime, asyncio
 from os import path
 from Helpers.globals import botLog
 from Helpers.tbender_song import Song
 from Helpers.tbender_settings import botset
 from Helpers import globals
+from fuzzywuzzy import fuzz
 
 def embed_builder(header:str, description:str, content:list(tuple(str()))=None):
     if header == None or header.strip() == "":
@@ -22,7 +23,7 @@ def embed_builder(header:str, description:str, content:list(tuple(str()))=None):
             return False
         if title == None or title.strip == "":
             title == "\u200c"
-        emb.add_field(title, value, inline = False)    
+        emb.add_field(title, value, inline = False)
     return emb
 
 def is_mod(user:disnake.Member):
@@ -279,24 +280,56 @@ async def analyze(message:disnake.Message, url:str, tt_key:str):
     return emb
 
 
-def modsearch_autocomplete(inter: disnake.ApplicationCommandInteraction, string: str):
-    string = string.lower()
-    return [mod for mod in fullmodlist if string in mod.lower()]
+def modsearch_autocomplete(inter: disnake.ApplicationCommandInteraction, user_input: str):
+    results = []
+    for mod in fullmodlist:
+        ratio = fuzz.partial_ratio(user_input.lower(), mod.lower())
+        if ratio >= 50:
+            results.append((mod, ratio))        
+    results.sort(key=lambda a: a[1])
+    results.reverse()
+    completions = []
 
-def modsearch_update_list():
-    req = requests.get("https://thunderstore.io/api/experimental/frontend/c/trombone-champ/packages/")
-    if req.ok:
-        mods = ["LIST"]
-        data = json.loads(req.text)
-        skips = ["r2modman", "BepInExPack_TromboneChamp"]
+    for r in results:
+        completions.append(r[0])
+
+    if len(completions) > 25:
+        return completions[:25]
+    else:
+        return completions
+
+async def modsearch_update_list():
+    global fullmodlist
+    url = "https://thunderstore.io/api/experimental/frontend/c/trombone-champ/packages/?page={page}"
+    page = 1
+    req = await globals.session.get(url.format(page=page))
+    if not req.ok:
+        botLog("Error", f"Encountered the following http error when trying to fetch modlist: [{req.status}] {req.reason}")
+        fullmodlist = []
+        return
+    
+    mods = ["LIST"]
+    data = json.loads(await req.read())
+    skips = ["r2modman", "BepInExPack_TromboneChamp"]
+    more_pages = True
+    while more_pages:
+        more_pages = data["has_more_pages"]
         for mod in data["packages"]:
             if mod["is_deprecated"]:
                 continue
             if mod["package_name"] in skips:
                 continue
             mods.append(mod["package_name"])
-        return mods
-    return []
+        if more_pages:
+            page += 1
+            req = await globals.session.get(url.format(page=page))
+            data = json.loads(await req.read())
+            if not req.ok:
+                botLog("Error", f"Encountered the following http error when trying to fetch modlist page {page}: [{req.status}] {req.reason}")
+                fullmodlist = mods
+                return
+    fullmodlist = mods
+
 
 async def modsearch(inter:disnake.ApplicationCommandInteraction, search:str):
     req = await globals.session.get("https://thunderstore.io/api/experimental/frontend/c/trombone-champ/packages/")
@@ -436,4 +469,4 @@ async def refresh_chart_list(inter:disnake.ApplicationCommandInteraction):
     
     
 
-fullmodlist = modsearch_update_list()
+fullmodlist = []

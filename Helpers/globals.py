@@ -60,23 +60,25 @@ class AllSongs:
         results = []
         for song in self.songs:
             if is_rated != None and song["is_rated"] != is_rated:
-                continue
-            if query.lower() in song["name"].lower():
-                results.append(song)
-                continue
-                
+                continue                
             if song["name"] == None:
                 song["name"] = ""
             if song["author"] == None:
                 song["author"] = ""
             if song["charter"] == None:
                 song["charter"] = ""
-            name_ratio = fuzz.token_set_ratio(query.lower(), song["name"].lower())
-            author_ratio = fuzz.token_set_ratio(query.lower(), song["author"].lower())
-            charter_ratio = fuzz.token_set_ratio(query.lower(), song["charter"].lower())            
-            if max(name_ratio, author_ratio, charter_ratio) >= 80:
-                results.append(song)
-        return(results)
+            name_ratio = fuzz.partial_ratio(query.lower(), song["name"].lower())
+            author_ratio = fuzz.partial_ratio(query.lower(), song["author"].lower())
+            charter_ratio = fuzz.partial_ratio(query.lower(), song["charter"].lower())            
+            if max(name_ratio, author_ratio, charter_ratio) >= 50:
+                results.append((song, max(name_ratio, author_ratio, charter_ratio)))
+            
+        results.sort(key=lambda a: a[1])
+        results.reverse()
+        real_results = []
+        for r in results:
+            real_results.append(r[0])
+        return(real_results)
     
     def get_random(self, is_rated=None):
         choices = self.songs

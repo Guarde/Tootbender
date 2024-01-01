@@ -18,6 +18,7 @@ class Trombot(commands.InteractionBot):
     async def on_ready(self):
         botLog("info", self.user.name + " is up and running!")
         asyncio.create_task(StatusLoop(self))
+        await tbender_commands.modsearch_update_list()
 
     async def on_message(self, message:disnake.Message):
         if message.author.bot:
@@ -104,7 +105,7 @@ async def howtomigrate(inter:disnake.ApplicationCommandInteraction):
 async def modsearch(inter:disnake.ApplicationCommandInteraction, search:str=commands.Param(default="LIST", autocomplete=tbender_commands.modsearch_autocomplete)):
     """Search for mods on Thunderstore!"""
     await tbender_commands.modsearch(inter, search)
-    tbender_commands.fullmodlist = tbender_commands.modsearch_update_list()
+    await tbender_commands.modsearch_update_list()
 
 @bot.slash_command()
 async def search(inter:disnake.ApplicationCommandInteraction, search:str=commands.Param(description="The name, artist or other info of the chart you want to search for.", autocomplete=tt_search.chart_search_autocomplete)):
