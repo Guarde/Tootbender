@@ -8,6 +8,7 @@ from Helpers import tbender_commands
 from Helpers import tbender_moderation
 from Helpers.tbender_googleapi import GoogleAPI
 from Helpers.tbender_mysql import DatabaseConnection
+from Helpers.tbender_keywords import check_keyword
 import Helpers.tbender_logparser as logparser
 import Helpers.tbender_ttsearch as tt_search
 from Helpers.tbender_status import StatusLoop
@@ -42,12 +43,20 @@ class Trombot(commands.InteractionBot):
                     await message.reply(embed=emb, components=button, mention_author=False)
                 else:
                     await message.reply(embed=emb, mention_author=False)
-
+                return
 
             if att and att.filename == "song.tmb":
                 emb = await tbender_commands.analyze(message, att.url, globals.settings.upload.tt_api_key)
                 if emb:
                     await message.reply(embed=emb, mention_author=False)
+                return
+        keyword = check_keyword(message.content)
+        if keyword:
+            header, response = keyword
+            emb = disnake.Embed(title=header, description=response)
+            await message.reply(embed=emb)
+            return
+
 
 globals.googleapi = GoogleAPI()
 level, message = globals.googleapi.connect()
@@ -75,11 +84,6 @@ async def trombloader(inter:disnake.ApplicationCommandInteraction):
 async def r2modman(inter:disnake.ApplicationCommandInteraction):
     """Download r2modman!"""
     await tbender_commands.r2modman(inter)
-            
-@bot.slash_command()
-async def spreadsheet(inter:disnake.ApplicationCommandInteraction):
-    """Get a Spreadsheet Link"""
-    await tbender_commands.spreadsheet(inter)
             
 @bot.slash_command()
 async def howtomod(inter:disnake.ApplicationCommandInteraction):

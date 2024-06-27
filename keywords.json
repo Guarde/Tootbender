@@ -1,0 +1,6 @@
+{"keys":
+	[
+		{"keyword": "https://www.youtube.com/watch?v=OtKz1-I243s", "header":"Outdated Tutorial Video!", "message": "Looks like you've sent a link to an **outdated modding tutorial**! \nFollowing this tutorial will **NOT** work. \n\nPlease use a more recent tutorial like [this one](https://www.youtube.com/watch?v=p0rud1uJ0o0)"},
+		{"keyword": "https://www.youtube.com/watch?v=pSwNSGx-P5c", "header":"Outdated Tutorial Video!", "message": "Looks like you've sent a link to an **outdated modding tutorial**! \nFollowing this tutorial will **NOT** work. \n\nPlease use a more recent tutorial like [this one](https://www.youtube.com/watch?v=p0rud1uJ0o0)"}
+	]
+}
