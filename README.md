@@ -11,6 +11,5 @@ A bot to streamline posting Trombone Champ Charts and adding them to a spreadshe
   - Duplicate trackRefs
 - Posts accepted charts to a spreadsheet and mysql database
 
-More commands & chart curation planned in the future!
 
 ![image](https://user-images.githubusercontent.com/20970956/224273333-51973d8f-d28b-4ab3-ab23-687030271236.png)

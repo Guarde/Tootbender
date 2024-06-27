@@ -7,7 +7,7 @@ from Helpers.tbender_settings import botset
 from Helpers import globals
 from fuzzywuzzy import fuzz
 
-def embed_builder(header:str, description:str, content:list(tuple(str()))=None):
+def embed_builder(header:str, description:str, content:list(tuple(str))=None):
     if header == None or header.strip() == "":
         botLog("warning", "Embed Builder received an empty header")
         return False
@@ -413,7 +413,7 @@ async def tootbender_command(inter:disnake.ApplicationCommandInteraction):
     await inter.send(embed=emb)
 
 async def howtoaddcharts(inter:disnake.ApplicationCommandInteraction):
-    emb = embed_builder("How to add Custom Charts to your game", "These guides assume that you have **already modded your game**. If you haven't, please **follow the instructions** outlined in `/howtomod`\nCustom Charts can be found on **[TootTally](https://toottally.com/search/)** or **[TromboneTB](https://tc-mods.github.io/TromboneDB/)**", [("So how do I do this?", "• Go to your r2modman settings\n• Click 'Browse profile folder'\n• Navigate to ./BepInEx/CustomSongs\n• Unzip any downloaded songs in there. Make sure each song is in a separate folder\n\nIf you have modded your game manually, skip the first two steps and open your game folder instead\n\nFor a more detailed guide please refer to...\n...r2modman: [Wiki Page](https://trombone.wiki/#/installing-r2modman?id=installing-custom-songs-on-r2modman)\n...otherwise: [Wiki Page](https://trombone.wiki/#/installing-songs)")])
+    emb = embed_builder("How to add Custom Charts to your game", "These guides assume that you have **already modded your game**. If you haven't, please **follow the instructions** outlined in `/howtomod`\nCustom Charts can be found on **[TootTally](https://toottally.com/search/)** or **[TromboneDB](https://tc-mods.github.io/TromboneDB/)**", [("So how do I do this?", "• Go to your r2modman settings\n• Click 'Browse profile folder'\n• Navigate to ./BepInEx/CustomSongs\n• Unzip any downloaded songs in there. Make sure each song is in a separate folder\n\nIf you have modded your game manually, skip the first two steps and open your game folder instead\n\nFor a more detailed guide please refer to...\n...r2modman: [Wiki Page](https://trombone.wiki/#/installing-r2modman?id=installing-custom-songs-on-r2modman)\n...otherwise: [Wiki Page](https://trombone.wiki/#/installing-songs)")])
     await inter.send(embed=emb)
 
 async def howtochart(inter:disnake.ApplicationCommandInteraction):
