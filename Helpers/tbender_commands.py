@@ -7,7 +7,7 @@ from Helpers.tbender_settings import botset
 from Helpers import globals
 from fuzzywuzzy import fuzz
 
-def embed_builder(header:str, description:str, content:list(tuple(str))=None):
+def embed_builder(header:str, description:str, content:list=None):
     if header == None or header.strip() == "":
         botLog("warning", "Embed Builder received an empty header")
         return False
@@ -177,20 +177,35 @@ async def pirate(inter:disnake.ApplicationCommandInteraction):
 
 async def sale(inter:disnake.ApplicationCommandInteraction):
     appid=1059990
-    price = ""
+    price_steam = ""
     req = await globals.session.get(f"https://store.steampowered.com/api/appdetails?appids={appid}&filters=price_overview&cc=US")
     if not req.ok:
-        price = "Unable to obtain pricing information."
+        price_steam = "Unable to obtain Steam pricing information."
         message = f"POST request returned error [{req.status}] {req.reason}"
         botLog("warning", message)
     else:
         req = json.loads(await req.read())
         po = req[str(appid)]["data"]["price_overview"]
         if po["discount_percent"] > 0:
-            price = f'[Trombone Champ](https://store.steampowered.com/app/1059990/Trombone_Champ/) is **currently on sale** for {po["final_formatted"]} ({po["discount_percent"]}% off)'
+            price_steam = f'[Trombone Champ (Steam)](https://store.steampowered.com/app/1059990/Trombone_Champ/) is **currently on sale** for {po["final_formatted"]} ({po["discount_percent"]}% off)'
         else:
-            price = f'[Trombone Champ](https://store.steampowered.com/app/1059990/Trombone_Champ/) is** currently not on sale**! (Price: {po["final_formatted"]})'
-    emb = disnake.Embed(title= "Current sale:", description=f"{price}")
+            price_steam = f'[Trombone Champ (Steam)](https://store.steampowered.com/app/1059990/Trombone_Champ/) is** currently not on sale**! (Price: {po["final_formatted"]})'
+    appid=70010000065994
+    req = await globals.session.get(f"https://api.ec.nintendo.com/v1/price?country=US&ids={appid}&lang=en")
+    if not req.ok:
+        price_switch = "Unable to obtain Nintendo E-Store pricing information."
+        message = f"POST request returned error [{req.status}] {req.reason}"
+        botLog("warning", message)
+    else:
+        req = json.loads(await req.read())
+        po = req["prices"][0]
+        if "discount_price" in po.keys():
+            discount_percent = math.floor(100 - (float(po["discount_price"]["raw_value"])/float(po["regular_price"]["raw_value"])) * 100)
+            price_switch = f'[Trombone Champ (Switch)](https://store.steampowered.com/app/1059990/Trombone_Champ/) is **currently on sale** for {po["discount_price"]["amount"]} ({discount_percent}% off)'
+        else:
+            price_switch = f'[Trombone Champ (Switch)](https://store.steampowered.com/app/1059990/Trombone_Champ/) is** currently not on sale**! (Price: {po["regular_price"]["amount"]})'
+        
+    emb = disnake.Embed(title= "CURRENT SALE STATUS...", description=f"## Steam\n{price_steam}\n## Switch\n{price_switch}")
     await inter.send(embed=emb)
 
 async def paths(inter:disnake.ApplicationCommandInteraction, platform:str):
