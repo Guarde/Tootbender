@@ -201,9 +201,9 @@ async def sale(inter:disnake.ApplicationCommandInteraction):
         po = req["prices"][0]
         if "discount_price" in po.keys():
             discount_percent = math.floor(100 - (float(po["discount_price"]["raw_value"])/float(po["regular_price"]["raw_value"])) * 100)
-            price_switch = f'[Trombone Champ (Switch)](https://store.steampowered.com/app/1059990/Trombone_Champ/) is **currently on sale** for {po["discount_price"]["amount"]} ({discount_percent}% off)'
+            price_switch = f'[Trombone Champ (Switch)](https://www.nintendo.com/us/store/products/trombone-champ-switch/) is **currently on sale** for {po["discount_price"]["amount"]} ({discount_percent}% off)'
         else:
-            price_switch = f'[Trombone Champ (Switch)](https://store.steampowered.com/app/1059990/Trombone_Champ/) is** currently not on sale**! (Price: {po["regular_price"]["amount"]})'
+            price_switch = f'[Trombone Champ (Switch)](https://www.nintendo.com/us/store/products/trombone-champ-switch/) is** currently not on sale**! (Price: {po["regular_price"]["amount"]})'
         
     emb = disnake.Embed(title= "CURRENT SALE STATUS...", description=f"## Steam\n{price_steam}\n## Switch\n{price_switch}")
     await inter.send(embed=emb)
