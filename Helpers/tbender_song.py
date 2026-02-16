@@ -95,25 +95,35 @@ class Song():
                 }
 
     def to_embed(self, comment:str):
+
+        author = self.tmb["author"][0:min(len(self.tmb["author"]), 50)]
+        genre = self.tmb["genre"][0:min(len(self.tmb["genre"]), 50)]
+
         detailsleft= []
-        detailsleft.append("**Artist:** " + self.tmb["author"])
-        detailsleft.append("**Genre:** " + self.tmb["genre"])
+        detailsleft.append("**Artist:** " + author)
+        detailsleft.append("**Genre:** " + genre)
         detailsleft.append("**Year:** " + str(self.tmb["year"]))
         detailsleft.append("**Difficulty:** " + str(self.tmb["difficulty"]))
         detailsleft.append("**Tempo:** " + str(self.tmb["tempo"]))
         detailsleft.append("**Duration:** " + self.duration_string)
 
+        trackRef = self.tmb["trackRef"][0:min(len(self.tmb["trackRef"]), 50)]
+
         detailsright = []
-        detailsright.append("**trackRef:** " + self.tmb["trackRef"])
+        detailsright.append("**trackRef:** " + trackRef)
         detailsright.append("**Filesize:** " + str(self.filesize) + " MB")
         detailsright.append("**Files:** \n- " + "\n- ".join(self.files))
         
         desc = f"by <@{self.creator_id}>"
         if len(comment.strip()) > 0:
             desc +=  f"\n \"{comment.strip()}\""
-        emb = disnake.Embed(title=self.name, description = desc, color=disnake.Colour.dark_teal())
+        desc = desc[0:min(len(desc), 400)]
+        
+        name = self.name[0:min(len(self.name), 150)]
+        description = self.tmb["description"].strip()[0:min(len(self.tmb["description"].strip()), 750)]
+        emb = disnake.Embed(title=name, description = desc, color=disnake.Colour.dark_teal())
 
-        emb.add_field(name = "Description: ", value = self.tmb["description"].strip(), inline=False)
+        emb.add_field(name = "Description: ", value = description, inline=False)
         emb.add_field(name = "Details:", value = "\n".join(detailsleft), inline=True)
         emb.add_field(name = "\u200B", value = "\n".join(detailsright), inline=True)
         return emb

@@ -204,7 +204,11 @@ async def post_song(self, message:disnake.Message, song:Song):
     await message.add_reaction("✅")
     await msg.add_reaction("♥")
     if globals.settings.general.do_threads:
-        thread = await msg.create_thread(name = song.name + " Discussion")
+        if len(song.name) > 80:
+            threadname = song.name[0:min(len(song.name), 77)] + "... Discussion"
+        else:
+            threadname = song.name + " Discussion"
+        thread = await msg.create_thread(name = threadname)
         await thread.add_user(message.author)
 
 async def tt_post(api_key, song:Song):

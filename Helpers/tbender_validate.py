@@ -36,10 +36,11 @@ def validate_song(song:Song, message:disnake.Message, fstruct:list):
     return
 
 def validate_alphanum(trackref:str, foldername:str):
-    expression = "[a-z0-9\-_\s]+"
-    if not regex_compare(expression, trackref):
+    expression_trackref = r"[^\p{C}\p{Zl}\p{Zp}]+"
+    expression_folder = r"[a-z0-9\-_\s]+"
+    if not regex_compare(expression_trackref, trackref):
         return False
-    if not regex_compare(expression, foldername):
+    if not regex_compare(expression_folder, foldername):
         return False
     return True
 
@@ -50,7 +51,6 @@ def validate_trackref_length(trackref:str):
 
 def validate_improv(tmb:dict):
     if not "improv_zones" in tmb.keys():
-        print("Key not found")
         return True
     if tmb["improv_zones"].__class__ == list().__class__:    
         return True
@@ -100,7 +100,7 @@ def validate_wip_keys(tmb:dict):
 def validate_file_types(files:list):
     allowed_regex = []
     for f in list(globals.settings.verification.allowed_filenames):
-        f = f.replace(".", "\.")
+        f = f.replace(".", "\\.")
         f = f.replace("*", ".+")
         allowed_regex.append(re.compile(f"({f})"))
 
