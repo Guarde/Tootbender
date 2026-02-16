@@ -22,7 +22,7 @@ class DatabaseConnection():
         self.cursor.execute(add_song, data_song)
         self.cnx.commit()
 
-    def check_trackref(self, trackref:str(), user):
+    def check_trackref(self, trackref:str, user):
         self.reconn()
         if not globals.settings.verification.unique_trackref:
             return True
