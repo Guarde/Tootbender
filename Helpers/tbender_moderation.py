@@ -24,7 +24,8 @@ async def handle_incoming_message(message:disnake.Message):
         current_message:disnake.Message = m[2]
         text = current_message.clean_content
         for a in current_message.attachments:
-            text += f"`📎{a.filename}`"
+            text += f" `📎{a.filename}`"
+        text = text.strip()
         messagetexts.append(text)
     emb = disnake.Embed(title="Spam Filter", description=f"Potential spam detected by user {message.author.mention} ({message.author.id})")
     emb.add_field(name="Reason", value = f"User exceeded the rate limit of **{settings.moderation.rate_limit_channels} channels** across **{settings.moderation.rate_limit_time} seconds.**", inline=False)
